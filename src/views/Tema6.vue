@@ -1,11 +1,15 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 3
-      h1 Titulo de primer nivel
+        span 6
+      h1 Empresa ganadera bovina de carne
+
+    .row.BGO1
+      .col-lg-07
+        p.mb-3 La organización o empresa e
 
 </template>
 

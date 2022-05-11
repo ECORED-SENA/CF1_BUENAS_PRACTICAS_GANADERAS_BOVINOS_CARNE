@@ -1,2 +1,2 @@
 module.exports =
-  'Componente Formativo con un nombre extremadamente largo y extenso'
+  'Conceptualización en buenas prácticas ganaderas para bovinos de carne'
