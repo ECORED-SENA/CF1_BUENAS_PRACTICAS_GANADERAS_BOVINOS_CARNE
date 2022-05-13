@@ -55,42 +55,96 @@
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="fade-right")
         .row.bg02.justify-content-center.align-items-center.p-4
-          .col-lg-2
+          .col-lg-1
             figure
               img(src='@/assets/curso/tema1/img07.svg', alt='Texto que describa la imagen') 
-          .col-lg-8
+          .col-lg-10
             p Para determinar la rentabilidad por hectárea de pasto por año se puede aplicar la siguiente fórmula:   
+            p.bg1.p-2 <strong>    COP/HA DE PASTO AÑO= Carga animal (UGG*/ha) X GMD (kg/UGG/día) X 365 días X MSV (%) X Valor del kg. </strong>
     
-
+    .row.justify-content-center.mt-5.mb-5
+      .col-md-4.mt-5
+        img(src='@/assets/curso/tema1/1.svg', alt='Texto que describa la imagen')
+    .row.justify-content-center.mb-5
+      .col-md-8.p-5.bg2
+        .row.p-5
+          .col-lg-12
+            p <strong>UGG:</strong> unidad gran ganado, que equivale a 450 kg de peso vivo.
+            img(src='@/assets/curso/tema1/2.svg', alt='Texto que describa la imagen')
+    p Las fases de importancia para la creación de una empresa ganadera se dividen en: 
     .row.mb-4.mb-md-5(data-aos="fade-down")
-      .col-lg-4.mb-3.mb-md-0
+      .col-lg-3.mb-3.mb-md-0
         .tarjeta.tarjeta-foto-hover
-          .tarjeta-foto-hover__img: img(src='@/assets/curso/tema1/img06.png')
-          .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-2
-            h4.text-center.text-white.mb-0 Bloqueos mentales
+          .tarjeta-foto-hover__img: img(src='@/assets/curso/tema1/3.png')
+          .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-2.bg3
+            h4.mb-0 Diagnóstico
           .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
-            .p-4.text-center
-              h5 Bloqueos mentales
-              p.mb-0  Son los que están relacionados con esos pensamientos ya construidos y que bloquean toda idea nueva, para los cuales se pueden tener pensamientos divergentes, rompiendo rutinas y reconfigurando ideas y procesos para avanzar.
-      .col-lg-4.mb-3.mb-md-0
+            .p-4
+              h5 Diagnóstico
+              p.mb-0  En donde es importante tener registros productivos, registros de venta y compra de insumos.
+      .col-lg-3.mb-3.mb-md-0
         .tarjeta.tarjeta-foto-hover(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
-          .tarjeta-foto-hover__img: img(src='@/assets/curso/tema1/img06.png')
-          .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-2
-            h4.text-center.text-white.mb-0 Bloqueos emocionales
+          .tarjeta-foto-hover__img: img(src='@/assets/curso/tema1/4.png')
+          .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-2.bg3
+            h4.mb-0 Metas
           .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
-            .p-4.text-center
-              h5 Bloqueos emocionales
-              p.mb-0 Relacionados con imaginar los peores escenarios, y es acá donde se tiende a pensar en las fatalidades y se considera que renunciar es la mejor opción.
-      .col-lg-4.mb-3.mb-md-0
+            .p-4
+              h5 Metas
+              p.mb-0 Pueden ser a corto o largo plazo y dependen, en gran medida, de los parámetros técnicos de la especie. 
+      .col-lg-3.mb-3.mb-md-0
         .tarjeta.tarjeta-foto-hover
-          .tarjeta-foto-hover__img: img(src='@/assets/curso/tema1/img06.png')
-          .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-2
-            h4.text-center.text-white.mb-0 Bloqueos perceptivos
+          .tarjeta-foto-hover__img: img(src='@/assets/curso/tema1/5.png')
+          .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-2.bg3
+            h4.mb-0 Planificación
           .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
-            .p-4.text-center
-              h5 Bloqueos perceptivos
-              p.mb-0 Limitan la
+            .p-4
+              h5 Planificación
+              p.mb-0 Esta realiza unos pasos a seguir en busca del éxito y con ayuda de programas de tecnificación para el manejo de los puntos críticos, encontrados en el transcurrir de la empresa.
+      .col-lg-3.mb-3.mb-md-0
+        .tarjeta.tarjeta-foto-hover
+          .tarjeta-foto-hover__img: img(src='@/assets/curso/tema1/6.png')
+          .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-2.bg3
+            h4.mb-0 Control
+          .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
+            .p-4
+              h5 Control
+              p.mb-0 Busca verificar todas las acciones ejecutadas y ver si están conforme a lo planteado, con el fin de tener un producto de excelente calidad y confiable para el consumo humano.
+    .row
+      .col-lg-3.bg4.p-1
+        h4.mt-2 Estructura y características   
+    .row.mt-5
+      .col-md-5
+        img(src='@/assets/curso/tema1/7.png', alt='Texto que describa la imagen')
+
+      .col-md-6.mt-5
+        p.mt-4 La ganadería bovina de carne en nuestro territorio viene fungiendo desde tiempos de la conquista española, con la introducción de ganado andaluz que posteriormente, dio origen a las razas nativas; seguido de ello fue introducida la raza Cebú de la línea Brahman y así sucesivamente se fue creando un hato ganadero que fue mejorado poco a poco con la inclusión de más razas como la Bos Tauros, Santa Gertrudis, Charoláis, entre otras.
+        p Los sistemas de explotación en Colombia están basados en modelos que, a continuación, se mencionan; procure llevar registro de los aspectos más destacados en su libreta personal de apuntes:
+    figure.mb-5.mt-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .row
+      .col-lg-3.bg4.p-1
+        h4.mt-2 Funciones 
+    .row.justify-content-center
+      .col-lg-10
+        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mt-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/tema1/8.png')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-2 La función de la empresa ganadera de carne es dar un mejor manejo del mercado bajo los parámetros técnicos establecidos, para minimizar gastos de producción y mejorar la productividad.
+            <br>
+            <br>
+            | <strong>Las exigencias del mercado han mostrado la importancia de cambiar la ganadería tradicional en sistemas de producción, bajo estándares de calidad con visión empresarial.</strong>
+      .col-lg-10.mt-5
+        .row.justify-content-center.bg5.p-2
+          .col-lg-1.mt-2.bb
+            img(src='@/assets/curso/tema1/9.svg', alt='Texto que describa la imagen') 
+          .col-lg-2.mt-4
+            p <strong>¡importante!</strong>
+          .col-lg-7.mt-2
+            p Cada vez más, se hace imprescindible estar certificados y cumplir con los estándares en todas las líneas de proceso, con el fin de garantizar la calidad e inocuidad del producto final.
           
 </template>
 
