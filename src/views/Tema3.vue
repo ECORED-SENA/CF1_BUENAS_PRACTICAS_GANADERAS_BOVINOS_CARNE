@@ -78,18 +78,19 @@
           | Los documentos que hacen parte integral de la presente Resolución ICA en el Artículo 12, como son sus anexos técnicos así:
       p.mb-0 <strong>Anexo I. Lista de chequeo certificación de BPA.</strong>
       p.mb-0 <strong>Anexo II. Criterios de cumplimiento para certificación de predios en BPA.</strong>
-      p.mb-0 <strong>Anexo III. Solicitud de auditoría en BPA.</strong>
+      p.mb-5 <strong>Anexo III. Solicitud de auditoría en BPA.</strong>
     .row.justify-content-center.align-items-center
       .col-lg-10
-        .row.justify-content-center.bg10.p-2
+        .row.align-items-center.bg10.p-2
           .col-lg-2.mt-2.bb
             img(src='@/assets/curso/tema3/3.svg', alt='Texto que describa la imagen') 
-          .col-lg-8.mt-4
+          .col-md-8.mt-4
             p <strong>Resolución 30021 de 2017</strong>
-            p.mb-0 Amplíe su conocimiento sobre criterios de cumplimiento y listas de chequeo en la aplicación de buenas prácticas ganaderas, consultando la Resolución 30021 de 2017, en el enlace que encuentra a continuación:
-              a.boton.color-acento-botones.texto-blanco(href="https://www.ica.gov.co/getattachment/9d8fe0fa-66d2-4feb-9513-cbba30dc4844/2017R30021.aspx" target="_blank")
-                span Ver más 
-                i.fas.fa-file-download
+            p.mb-2 Amplíe su conocimiento sobre criterios de cumplimiento y listas de chequeo en la aplicación de buenas prácticas ganaderas, consultando la Resolución 30021 de 2017, en el enlace que encuentra a continuación:
+          .col-md-2
+            a.boton.color-acento-contenido.texto-blanco(href="https://www.ica.gov.co/getattachment/9d8fe0fa-66d2-4feb-9513-cbba30dc4844/2017R30021.aspx" target="_blank")
+              span Ver más 
+              i.fas.fa-file-download
       
     Separador
     #t_3_3.titulo-segundo.color-secundario.mt-5
