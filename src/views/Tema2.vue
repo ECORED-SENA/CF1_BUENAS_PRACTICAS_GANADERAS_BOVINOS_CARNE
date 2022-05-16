@@ -14,13 +14,13 @@
           .row
             .col-lg-2.bb
               img(src='@/assets/curso/tema2/1.svg', alt='Texto que describa la imagen') 
-            .col-lg-10
+            .col-lg-10.mt-5
               p La política sanitaria y de inocuidad del gobierno colombiano para la leche, la carne bovina y sus derivados fue aprobada mediante el documento CONPES 3375 que se refiere a la “Política nacional de sanidad agropecuaria e inocuidad de alimentos para el sistema de medidas sanitarias y fitosanitarias”, y 3376 “Política sanitaria y de inocuidad para las cadenas de la carne y de la leche. 
     
     p Esta reglamentación:
-    .row.justify-content-center.mt-5
+    .row.justify-content-center.mt-5(data-aos="fade-right")
       .col-lg-7
-        img(src='@/assets/curso/tema2/2.svg', alt='Texto que describa la imagen') 
+        img(src='@/assets/curso/tema2/2.svg', alt='Texto que describa la imagen')(data-aos="fade-right") 
     Separador
     #t_2_1.titulo-segundo.color-acento-contenido
       h2 2.1 Normatividad

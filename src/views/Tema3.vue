@@ -81,7 +81,7 @@
       p.mb-5 <strong>Anexo III. Solicitud de auditoría en BPA.</strong>
     .row.justify-content-center.align-items-center
       .col-lg-10
-        .row.align-items-center.bg10.p-2
+        .row.justify-content-center.align-items-center.bg10.p-2
           .col-lg-2.mt-2.bb
             img(src='@/assets/curso/tema3/3.svg', alt='Texto que describa la imagen') 
           .col-md-8.mt-4

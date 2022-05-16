@@ -5,12 +5,49 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 6
-      h1 Empresa ganadera bovina de carne
+      h1 Diagnóstico de aplicación BPG en el predio
 
-    .row.BGO1
-      .col-lg-07
-        p.mb-3 La organización o empresa e
+    .row.mb-5.bg01.align-items-center.mb-5(data-aos="fade-right")
+      .col-md-4.col
+        figure
+         img(src='@/assets/curso/tema6/1.png', alt='Texto que describa la imagen')(data-aos="fade-right")
 
+      .col.md-7.p-5
+        p.mb-3 Las BPG son las diversas actividades ganaderas que una empresa debe llevar a cabo a lo largo de la vida del animal, asegurando la inocuidad y enfocándose en la gestión del riesgo biológico, físico y químico, ya que el estado del predio puede afectar positiva o negativamente la salud y vida del animal y del consumidor.
+        p.mb-3 <strong>Adicionalmente a los pasos y acciones que acercan al predio a la certificación ICA, los ganaderos deben registrar sus predios ante esta misma Institución</strong>.
+    .row.mb-5.align-items-center
+      .col-md-6.col-mb-5
+        p.mb-5 Por otro lado, se deben implementar una serie de medidas técnicas como las que se enuncian a continuación:
+        ol.lista-ol--cuadro.lista-ol--separador
+          li 
+            .lista-ol--cuadro__vineta
+              span 1
+            | Instalaciones y áreas.
+          li 
+            .lista-ol--cuadro__vineta
+              span 2
+            | Sanidad animal y bioseguridad.
+          li 
+            .lista-ol--cuadro__vineta
+              span 3
+            | Registro y trazabilidad.
+          li 
+            .lista-ol--cuadro__vineta
+              span 4
+            | Bienestar animal.
+          li 
+            .lista-ol--cuadro__vineta
+              span 5
+            | Manejo de insumos pecuarios y medicamentos veterinarios.
+          li 
+            .lista-ol--cuadro__vineta
+              span 6
+            | Personal.
+      .col-md-4.col.p-0(data-aos="fade-left").mb-5
+        img(src='@/assets/curso/tema6/2.png')
+
+    
+              
 </template>
 
 <script>
