@@ -174,139 +174,108 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Consejo Nacional de Política Económica y Social. (2019). Política nacional para mejorar la competitividad del sector lácteo colombiano.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.minagricultura.gov.co/ministerio/direcciones/Documents/d.angie/conpes%203675.pdf ',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Corrientes Portal Turístico Provincial. (s.f.). Ganadería de corrientes. Corrientes.',
+      link: 'http://www.corrientes.com.ar/provincia/ganaderia.php',
+    },
+    {
+      referencia:
+        'Federación Colombiana de Ganaderos. (s.f.). Buenas Prácticas ganaderas. FEDEGAN.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://www.fedegan.org.co/programas/buenas-practicas-ganaderas#:~:text=Las%20Buenas%20Pr%C3%A1cticas%20Ganaderas%20(BPG,que%20trabajan%20en%20la%20explotaci%C3%B3n',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Garcia, E. (2019). Ganadería de Sinaloa fuera del programa créditos a la palabra. Luz noticias. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://www.luznoticias.mx/agro/ganaderia-de-sinaloa-fuera-del-programa-creditos-a-la-palabra/57574',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Metro Ecuador. (2019). La "ganadería climáticamente inteligente" se consolida en Ecuador. Contexto ganadero.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://www.contextoganadero.com/reportaje/la-ganaderia-climaticamente-inteligente-se-consolida-en-ecuador',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'OnCuba. (2018). Ganadería cubana: más leche, pero muy lejos de satisfacer la demanda. OnCuba News.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'https://oncubanews.com/cuba/ganaderia-cubana-mas-leche-pero-muy-lejos-de-satisfacer-la-demanda/',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Rangel, V. (2020). Gestión ambiental en el sector ganadero doble propósito de los pequeños productores en Maicao, Colombia. Revista Espacios',
+      link: '. https://www.revistaespacios.com/a20v41n27/a20v41n27p03.pdf',
+    },
+    {
+      referencia:
+        'Resolución 068167 de 2020. [Instituto Colombiano Agropecuario]. Por medio de la cual se establecen los requisitos para obtener la certificación en Buenas Prácticas Ganaderas BPG en la producción de carne de bovinos y/o bufalinos. Mayo 20 de 2020.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        '. https://www.ica.gov.co/getattachment/db5b53ff-0752-4884-90b8-a7ce15ce1ead/2020R68167.aspx ',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Bienestar animal',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Estado físico y mental de un animal en relación con las condiciones en las que vive y muere.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Bioseguridad',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Conjunto de prácticas o medidas sanitarias y preventivas orientadas a prevenir el contacto de los animales con microorganismos patógenos, evitar la entrada y salida de agentes infectocontagiosos.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Buenas prácticas ganaderas',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Prácticas recomendadas con el propósito de disminuir riesgos físicos, químicos y biológicos en la producción primaria de alimentos de origen animal que puedan generar riesgo a las personas promoviendo la sanidad, el bienestar animal y la protección del medio ambiente.',
     },
     {
-      termino: '<em>Áectores</em>',
-      significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+      termino: 'FEDEGAN',
+      significado: 'Federación colombiana de ganaderos.',
     },
     {
-      termino: 'Moda',
+      termino: 'Inocuidad',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
-    },
-    {
-      termino: 'Diseña',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'DIseño',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Es la garantía de que los alimentos no causarán daño al consumidor cuando se preparen y consuman de acuerdo con el uso al que se destina.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
+        'Producción agropecuaria y agroindustrial. (2021). Buenas prácticas ganaderas, ICA 2020.”',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: 'https://www.youtube.com/watch?v=F1SXng6fIr4',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Asocebu Col. (2020). Hablemos de Cebú - importancia en la prevención de las enfermedades de control oficial en Colombia ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=9jPXUuk2WNI',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
+        'Zootecnia y veterinaria es mi pasión. (2022). Zootecnia, veterinaria y producción animal. Zoovetesmipasion',
+      tipo: 'Linografía',
+      link:
+        'https://zoovetesmipasion.com/ganaderia/buenas-practicas-ganaderas-2/',
     },
     {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+      texto:
+        'Sanjuan, Y. (2021). Trazabilidad de la cadena cárnica bovina en Colombia',
       tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      link: 'https://www.youtube.com/watch?v=v6bCdQvaCyk',
+    },
+    {
+      texto:
+        'La Finca de Hoy. (2020). Así debe ser un correcto plan sanitario para el bienestar de sus bovinos - La Finca de Hoy',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=uVxB71GZBpw',
     },
   ],
   creditos: {
@@ -338,13 +307,13 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'María Natalia Maldonado Delgado ',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Sandra Milena Triana Pinto',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

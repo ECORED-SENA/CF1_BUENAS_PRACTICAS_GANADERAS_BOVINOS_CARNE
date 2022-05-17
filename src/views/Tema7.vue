@@ -74,27 +74,41 @@
                   p.mb-0 Por el cual se modifica parcialmente el Decreto 2838 de 2006 y se dictan otras disposiciones.
     p.mb-5 En lo relativo a la indumentaria necesaria en ganadería de carne, los implementos acordes a la normativa de SST del Manejo integrado de plagas (MIP) buscan proteger la salud del trabajador, para ello se debe de tener en cuenta el uso adecuado y la calidad de los siguientes elementos:
     .row.mb-5.justify-content-center
-      .col-md-1
-        img.img131(src='@/assets/curso/tema7/1.svg', alt='Texto que describa la imagen' style='width: 190px').mb-3.m-auto.hoverScale
-        .text-center: p Botas de caucho
-      .col-md-1.col.ms-5
-        img.img131(src='@/assets/curso/tema7/2.svg', alt='Texto que describa la imagen' style='width: 190px').mb-3.m-auto.hoverScale
-        .text-center: p  Overol antifluido
-      .col-md-1.col.ms-5
-        img.img131(src='@/assets/curso/tema7/3.svg', alt='Texto que describa la imagen' style='width: 190px').mb-3.m-auto.hoverScale
-        .text-center: p Guantes
-      .col-md-1.col.ms-5
-        img.img131(src='@/assets/curso/tema7/4.svg', alt='Texto que describa la imagen' style='width: 190px').mb-3.m-auto.hoverScale
-        .text-center: p Gorro
-      .col-md-1.col.ms-5
-        img.img131(src='@/assets/curso/tema7/5.svg', alt='Texto que describa la imagen' style='width: 190px').mb-3.m-auto.hoverScale
-        .text-center: p Tapabocas
-      .col-md-1.col.ms-5
-        img.img131(src='@/assets/curso/tema7/6.svg', alt='Texto que describa la imagen' style='width: 190px').mb-3.m-auto.hoverScale
-        .text-center: p Gafas
-      .col-md-1.col.ms-5
-        img.img131(src='@/assets/curso/tema7/7.svg', alt='Texto que describa la imagen' style='width: 190px').mb-3.m-auto.hoverScale
-        .text-center: p Delantal o bata industrial
+      .col-4.col-lg-2.col-xl-1.mb-4.mb-lg-0
+        img(src='@/assets/curso/tema7/1.svg', style='width: 270px').mb-3.m-auto.hoverScale
+        .row
+          .col-12
+            p.text-center.mb-0 Botas de caucho
+      .col-4.col-lg-2.col-xl-1.mb-4.mb-lg-0
+        img(src='@/assets/curso/tema7/2.svg', style='width: 270px').mb-3.m-auto.hoverScale
+        .row
+          .col-12
+            p.text-center.mb-0 Overol antifluido
+      .col-4.col-lg-2.col-xl-1.mb-4.mb-lg-0
+        img(src='@/assets/curso/tema7/3.svg', style='width: 270px').mb-3.m-auto.hoverScale
+        .row
+          .col-12
+            p.text-center.mb-0 Guantes
+      .col-4.col-lg-2.col-xl-1.mb-4.mb-lg-0
+        img(src='@/assets/curso/tema7/4.svg', style='width: 270px').mb-3.m-auto.hoverScale
+        .row
+          .col-12
+            p.text-center.mb-0 Gorro
+      .col-4.col-lg-2.col-xl-1.mb-4.mb-lg-0
+        img(src='@/assets/curso/tema7/5.svg', style='width: 270px').mb-3.m-auto.hoverScale
+        .row
+          .col-12
+            p.text-center.mb-0 Tapabocas
+      .col-4.col-lg-2.col-xl-1.mb-4.mb-lg-0
+        img(src='@/assets/curso/tema7/6.svg', style='width: 270px').mb-3.m-auto.hoverScale
+        .row
+          .col-12
+            p.text-center.mb-0 Gafas
+      .col-4.col-lg-2.col-xl-1
+        img(src='@/assets/curso/tema7/7.svg', style='width: 270px').mb-3.m-auto.hoverScale
+        .row
+          .col-12
+            p.text-center.mb-0 Delantal o bata industrial
     .row(data-aos="zoom-in").justify-content-center
       .col-md-10
         TabsC.color-acento-contenido

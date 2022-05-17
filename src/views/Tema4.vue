@@ -7,11 +7,11 @@
         span 4
       h1 Protocolos
     .row.mb-5.bg01.align-items-center.mb-5(data-aos="fade-right")
-      .col-md-7.p-5
-        p Los protocolos de bioseguridad ganadera son de suma importancia porque <strong>extienden una orientación clara y concisa de las actividades que se deben de llevar a cabo para la crianza, producción, mantenimiento y exportación</strong>.
+      .col-md-7
+        p Los protocolos de bioseguridad ganadera son de suma importancia porque #[b extienden una orientación clara y concisa de las actividades que se deben de llevar a cabo para la crianza, producción, mantenimiento y exportación].
         p En relación con los protocolos de bioseguridad en la finca ganadera tenga en cuenta las siguientes generalidades:
       .col-md-3
-        img(src='@/assets/curso/tema4/1.png', alt='Texto que describa la imagen')
+        img(src='@/assets/curso/tema4/1.png', style="width: 300px").m-auto
     .row.mb-5(data-aos="slide-right")
       .col-sm-6.col-lg-3.mb-4.mb-lg-0
        .tarjeta--boton.color-secundario.p-4.h-100
@@ -52,10 +52,10 @@
             p Las Buenas Prácticas Ganaderas, como estrategia de calidad en la producción primaria, deben contar con lineamientos que permiten la certificación de la finca o empresa que lo requiera.
           .py-5.py-md-10.bgr_3.p-4(titulo="02. ¡Recuerde!")
             p El instituto colombiano agropecuario (ICA), es la entidad certificadora en BPG; para ello hay establecido un procedimiento y unos requisitos que serán solicitados a aquellos predios que se dedican a la producción de carne bovina y que se destinan al sacrificio y el consumo humano.
-    .row.mb-5.align-items-center
-      .col-md-6.p-0(data-aos="fade-right")
-        p.m-mb-5 Las BPG requieren de un procedimiento que según la entidad certificadora se establece de la siguiente manera: 
-        ol.lista-puntero
+    .row.align-items-center.mb-4.mb-lg-0
+      .col-md-6.p-2(data-aos="fade-right")
+        p Las BPG requieren de un procedimiento que según la entidad certificadora se establece de la siguiente manera: 
+        ol.lista-puntero.ms-4
           li
             .lista-puntero
             | Control de plagas.
@@ -81,7 +81,7 @@
             .lista-puntero
             | Manejo medioambiental de residuos.
         p Para el proceso de certificación de BPG se realiza una visita técnica a la granja, en la cual se evalúan los requisitos anteriormente mencionados y se debe tener en cuenta: 
-        ol.lista-puntero
+        ol.lista-puntero.ms-4
           li
             .lista-puntero
             | Control de plagas.
@@ -97,8 +97,8 @@
           li
             .lista-puntero
             | Trazabilidad.
-      .col-md-4.col.p-0(data-aos="fade-left").mb-5
-        img(src='@/assets/curso/tema4/7.png')
+      .col-md-4(data-aos="fade-left")
+        img(src='@/assets/curso/tema4/7.png', style="width: 350px").m-auto
     p.mb-5 Conozca, a continuación, algunos conceptos adicionales relativos a los procesos de certificación BPG, de los cuales se debe tener claridad, esto favorecerá la toma de decisiones y la aplicación de acciones más acertadas para el proceso:
     .row(data-aos="fade-left")
       AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")

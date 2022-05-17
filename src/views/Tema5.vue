@@ -12,31 +12,31 @@
       .col-lg-7
         img(src='@/assets/curso/tema5/1.svg', alt='Texto que describa la imagen')(data-aos="fade-right") 
     p.mb-5 En cuanto a tipos de recursos, uso y manejo dentro de las BPG se presentan algunos aspectos a tener en cuenta:
-    .row.justify-content-center
-      .col-9.col-lg-4.mb-3.mb-lg-0(data-aos="zoom-in")
+    .row.justify-content-center(data-aos="zoom-in")
+      .col-9.col-lg-4.mb-3.mb-lg-0.bg11
         .row.m-1
-          .col-12.p-3.bg12
+          .col-12.p-3.bgtitulo
             h3.text-center Sanidad
-          .col-12.p-3.bg11(style="height: 130px")
+          .col-12.p-3.bgcontenido(style="height: 130px")
             p Manejo de enfermedades, control de residuos y menos medicamentos veterinarios.
           .col-12.px-0
-            img(src="@/assets/curso/tema5/2.png"  alt='Texto que describa la imagen')(data-aos="fade-right")
-      .col-9.col-lg-4.mb-3.mb-lg-0(data-aos="zoom-in")
+            img(src="@/assets/curso/tema5/2.png"  alt='Texto que describa la imagen')
+      .col-9.col-lg-4.mb-3.mb-lg-0.bg11
         .row.m-1
-          .col-12.p-3.bg12
+          .col-12.p-3.bgtitulo
             h3.text-center Ambiental
-          .col-12.p-3.bg11(style="height: 130px")
+          .col-12.p-3.bgcontenido(style="height: 130px")
             p Conservación, fuentes hídricas, bienestar animal, minimización del  impacto ambiental.
           .col-12.px-0
-            img(src="@/assets/curso/tema5/3.png"  alt='Texto que describa la imagen')(data-aos="fade-right")
-      .col-9.col-lg-4(data-aos="zoom-in")
+            img(src="@/assets/curso/tema5/3.png"  alt='Texto que describa la imagen')
+      .col-9.col-lg-4.bg11
         .row.m-1
-          .col-12.p-3.bg12
+          .col-12.p-3.bgtitulo
             h3.text-center Socioeconómico
-          .col-12.p-3.bg11(style="height: 130px")
+          .col-12.p-3.bgcontenido(style="height: 130px")
             p Aumento de calidad y productividad.
           .col-12.px-0
-            img(src="@/assets/curso/tema5/4.png"  alt='Texto que describa la imagen')(data-aos="fade-right")
+            img(src="@/assets/curso/tema5/4.png"  alt='Texto que describa la imagen')
 
 </template>
 

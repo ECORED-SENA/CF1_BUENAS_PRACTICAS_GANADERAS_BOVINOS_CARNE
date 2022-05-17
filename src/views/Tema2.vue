@@ -61,11 +61,36 @@
             .h5.mb-2 Resolución 1513 de 2004
             p Por la cual se establecen medidas sanitarias para la prevención, el control y la erradicación de la tuberculosis bovina en Colombia.
     p.mb-5 En cuanto a la inocuidad pecuaria conozca en la siguiente gráfica la reglamentación existente; tenga presente que tales normativas se actualizan, se postulan cambios y ajustes permanentes para las prácticas ganaderas de producción:
-    // falta contenido aca
-    .row.justify-content-center
-      .col-lg-10.p-5.bg6
-        h5 Decreto 1500 de 2007
-        p Por el cual se establece el reglamento técnico a través del cual se crea el Sistema oficial de inspección, vigilancia y control de la carne, productos cárnicos comestibles y derivados cárnicos destinados para el consumo humano y los requisitos sanitarios y de inocuidad que se deben cumplir en su producción primaria, beneficio, desposte, desprese, procesamiento, almacenamiento, transporte, comercialización, expendio, importación o exportación.
+    .row.justify-content-center.mb-5
+      .col-4.p-4.mb-5.bg15
+        h3.mb-0.text-center Inocuidad Pecuaria
+      .col-lg-10
+        TabsB.color-acento-contenido
+          .py-4.py-md-5(titulo="Documento CONPES 3676 de 2010" :icono="require('@/assets/curso/tema2/img1.svg')").bg16
+            .row
+              .col-12.p-4
+                h4 Documento CONPES 3676 de 201
+                p Consolidación de la política sanitaria y de inocuidad para las cadenas láctea y cárnica.
+          .py-4.py-md-5(titulo="Resolución 3585 de 2008" :icono="require('@/assets/curso/tema2/img1.svg')").bg16
+            .row
+              .col-12.p-4
+                h4 Resolución 3585 de 2008
+                p Por la cual se establece el sistema de inspección, evaluación y certificación oficial de la producción primaria de leche, de conformidad con lo dispuesto en el Decreto 616 de 2006.
+          .py-4.py-md-5(titulo="Resolución 2341 de 2007" :icono="require('@/assets/curso/tema2/img1.svg')").bg16
+            .row
+              .col-12.p-4
+                h4 Resolución 2341 de 2007
+                p Por la cual se reglamentan las condiciones sanitarias y de inocuidad en la producción primaria de ganado bovino y bufalino, destinado al sacrificio para consumo humano.
+          .py-4.py-md-5(titulo="Decreto 1500 de 2007" :icono="require('@/assets/curso/tema2/img1.svg')").bg16
+            .row
+              .col-12.p-4
+                h4 Decreto 1500 de 2007
+                p Por el cual se establece el reglamento técnico a través del cual se crea el Sistema oficial de inspección, vigilancia y control de la carne, productos cárnicos comestibles y derivados cárnicos destinados para el consumo humano y los requisitos sanitarios y de inocuidad que se deben cumplir en su producción primaria, beneficio, desposte, desprese, procesamiento, almacenamiento, transporte, comercialización, expendio, importación o exportación.
+          .py-4.py-md-5(titulo="Decreto 616 de 2006" :icono="require('@/assets/curso/tema2/img1.svg')").bg16
+            .row
+              .col-12.p-4
+                h4 Decreto 616 de 2006
+                p Por el cual se expide el reglamento técnico sobre los requisitos que debe cumplir la leche para el consumo humano que se obtenga, procese, envase, transporte, comercialice, expenda, importe o exporte en el país.
     .row.justify-content-center.mt-5.bg7.p-5
       .col-lg-3
         img(src='@/assets/curso/tema2/4.svg', alt='Texto que describa la imagen')

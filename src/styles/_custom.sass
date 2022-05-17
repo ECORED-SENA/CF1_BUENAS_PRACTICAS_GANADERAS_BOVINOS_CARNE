@@ -96,10 +96,18 @@
   background: linear-gradient(to right, #F5F5F5, white)
 
 .bg11
-  background-color: #DDEFD7
+  .bgtitulo
+    background-color: #BBDEAF
+    transition: all .3s ease-in-out
+  .bgcontenido
+    background-color: #DDEFD7
+    transition: all .3s ease-in-out
 
-.bg12
-  background-color: #BBDEAF
+.bg11:hover
+  .bgtitulo
+    background-color: #FFCE7E
+  .bgcontenido
+    background-color: #F5E6CD
 
 .bg13
   background-color: #FFD63D
@@ -107,6 +115,28 @@
 .bg14
   background-color: #FFF3C6
   border-left: 2px solid #FF854E
+
+//Falta
+
+.bg15
+  background-color: #FFD63D
+  border-radius: 14px
+
+.bg16
+  background-color: #FFF3C6
+
+.tabs-b.color-acento-contenido .tabs-b__tab--active
+  background-color: #FFF3C6
+
+.tabs-b__tab
+  background-color: #F5EAD9
+
+.tabs-c__tab
+  padding: 3px
+  border: 2px solid #FFD63D
+  border-radius: 5px
+
+//----------------------------------------
 
 .bgt1
   background-image: url("../assets/curso/tema2/bg1.png") 
@@ -153,8 +183,11 @@
 
 .tarjeta--boton.color-secundario
   background-color: #FFF3C6
-  transition: 
-    background-color: #BBDEAF
+
+//Esto
+
+.tarjeta--boton.color-secundario:hover
+  background-color: #BBDEAF
 
 .bgr
   &_3
