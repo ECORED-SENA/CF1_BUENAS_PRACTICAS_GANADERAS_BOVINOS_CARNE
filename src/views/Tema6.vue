@@ -7,16 +7,15 @@
         span 6
       h1 Diagnóstico de aplicación BPG en el predio
 
-    .row.mb-5.bg01.align-items-center.mb-5(data-aos="fade-right")
+    .row.mb-5.bg04.align-items-center.mb-5(data-aos="fade-right")
       .col-md-4.col
         figure
          img(src='@/assets/curso/tema6/1.png', alt='Texto que describa la imagen')(data-aos="fade-right")
-
       .col.md-7.p-5
         p.mb-3 Las BPG son las diversas actividades ganaderas que una empresa debe llevar a cabo a lo largo de la vida del animal, asegurando la inocuidad y enfocándose en la gestión del riesgo biológico, físico y químico, ya que el estado del predio puede afectar positiva o negativamente la salud y vida del animal y del consumidor.
         p.mb-3 <strong>Adicionalmente a los pasos y acciones que acercan al predio a la certificación ICA, los ganaderos deben registrar sus predios ante esta misma Institución</strong>.
-    .row.mb-5.align-items-center
-      .col-md-6.col-mb-5
+    .row.align-items-center.mb-5
+      .col-lg-6.align-items-center.mb-4.mb-lg-0
         p.mb-5 Por otro lado, se deben implementar una serie de medidas técnicas como las que se enuncian a continuación:
         ol.lista-ol--cuadro.lista-ol--separador
           li 
@@ -43,10 +42,20 @@
             .lista-ol--cuadro__vineta
               span 6
             | Personal.
-      .col-md-4.col.p-0(data-aos="fade-left").mb-5
-        img(src='@/assets/curso/tema6/2.png')
-
-    
+      .col-lg-6(data-aos="fade-left")
+        img(src='@/assets/curso/tema6/2.png', style="width: 350px").m-auto
+    .row.justify-content-center.align-items-center
+      .col-lg-10
+        .row.justify-content-center.align-items-center.bg10.p-3
+          .col-auto
+            img(src='@/assets/curso/tema3/3.svg', style="width: 90px") 
+          .col-md-8
+            p #[b Diagnóstico de Aplicación BPG]
+            p.mb-2 Profundice en lo relacionado con el diagnóstico de aplicación BPG en el predio, visitando el siguiente enlace y analizando con atención su contenido.
+          .col-md-2
+            a.boton.color-acento-contenido.texto-blanco(href="https://www.ica.gov.co/getattachment/db5b53ff-0752-4884-90b8-a7ce15ce1ead/2020R68167.aspx" target="_blank")
+              span(style="color: #000 !important") Ver más 
+              i.fas.fa-link(style="color: #000 !important")
               
 </template>
 

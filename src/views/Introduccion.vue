@@ -8,14 +8,10 @@
         span
           i.fas.fa-info
       h1 Introducción
-    
-    p.mb-5 Se da la bienvenida al componente <strong>“Conceptualización en buenas prácticas ganaderas para bovinos de carne”</strong> y se espera que tenga una experiencia exitosa de aprendizaje, por ello, se invita a comenzar visualizando el recurso que se muestra a continuación. <strong>¡Adelante!</strong>
-    
-    figure.mb-5
+    p.mb-5 Se da la bienvenida al componente #[b “Conceptualización en buenas prácticas ganaderas para bovinos de carne”] y se espera que tenga una experiencia exitosa de aprendizaje, por ello, se invita a comenzar visualizando el recurso que se muestra a continuación. #[b ¡Adelante!]
+    figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    
     
 </template>
 

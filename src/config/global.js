@@ -4,7 +4,7 @@ export default {
       'Conceptualización en buenas prácticas ganaderas para bovinos de carne',
     descripcionCurso:
       'Mediante este componente el aprendiz asimilará conceptos y prácticas para la empresa ganadera bovina de carne, función, estructura y características, política sanitaria y de inocuidad en alimentos. Estará capacitado para la aplicación de buenas prácticas ganaderas (BPG) en la producción de bovinos de carne y todos sus componentes: normatividad, seguridad y salud en el trabajo, riesgos en ganadería de carne, gestión ambiental, calidad, entre otros.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
   },
   menuPrincipal: {

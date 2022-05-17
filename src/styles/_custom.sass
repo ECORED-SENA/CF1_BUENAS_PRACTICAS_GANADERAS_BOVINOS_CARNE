@@ -1,9 +1,38 @@
+.cajon.color-primario
+  background-color: #FCF9F4
+
+.cajon.color-primario::before
+  background-color: #F5EAD9
+
+.tabs-a__tab
+  background-color: #F0F8ED
+
+.tarjeta.color-acento-contenido
+  background-color: #F0F8ED
+
+.tabs-a.color-acento-contenido .tabs-a__tab__selected
+  background-color: #FFD63D
+
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #BBDEAF
+  
 .bg01
-  background-color: #F5F5F5
+  background-image: url("../assets/curso/tema1/img1.svg") 
+  background-repeat: no-repeat
+  background-size: contain
+  background-position-y: center
+
 .bg02
   background-color: #F5EAD9
+
 .bg03
   background-color:#DDEFD7
+
+.bg04
+  background-image: url("../assets/curso/tema6/img1.svg")
+  background-repeat: no-repeat
+  background-size: contain
+  background-position-y: center
 
 // TARJETA HOVER TEMA 1-3
 .bg-degrade
@@ -16,7 +45,6 @@
   &:hover
     .tarjeta-foto-hover__tarjeta
       transform: translateY(0%)
-
   &__titulo
     position: absolute
     bottom: 0
@@ -27,74 +55,106 @@
     bottom: 0
     width: 100%
     height: 100%
-    transform: translateY(100%)  
+    transform: translateY(100%)
+
 .bg1
   background-color:   #FFCE7E
+
 .bg2
   background-color: #F4F4F4
+
 .bg3
   background-color: #A1D98C
   opacity: 0.9
+
 .bg4
   background-color: #E6EEE3
+
 .bg5
   background-color: #FFD63D
   border-radius: 10px
+
 .bg10
   background-color: #5AE6DA
   border-radius: 10px
-.bb
-  width: 107px
+
 //tema 2
+
 .tarjeta.color-acento-botones
   background-color: #FCF9F4
+
 .bg6
   background-color: #FFF3C6
+
 .bg7
   background-color: #E1E9E8
+
 .bg8
   background-color: #E2F4F6
+
 .bg9
   background: linear-gradient(to right, #F5F5F5, white)
-  
+
+.bg11
+  background-color: #DDEFD7
+
+.bg12
+  background-color: #BBDEAF
+
+.bg13
+  background-color: #FFD63D
+
+.bg14
+  background-color: #FFF3C6
+  border-left: 2px solid #FF854E
+
 .bgt1
   background-image: url("../assets/curso/tema2/bg1.png") 
   background-repeat: no-repeat
+
 .bgt2
   background-image: url("../assets/curso/tema2/bg2.png") 
   background-repeat: no-repeat
+
 .bgt3
   background-image: url("../assets/curso/tema2/bg3.png") 
   background-repeat: no-repeat
+
 .bgt4
   background-image: url("../assets/curso/tema2/bg4.png") 
   background-repeat: no-repeat
+
 .bgt5
   background-image: url("../assets/curso/tema2/bg5.png") 
   background-repeat: no-repeat
+
 .bgt6
   background-image: url("../assets/curso/tema2/bg6.png") 
   background-repeat: no-repeat
+
 .bgt7
   background-image: url("../assets/curso/tema2/11.png") 
   background-repeat: no-repeat
   background-size: cover
+
+.img-deco1
+  position: relative
+  left: -40px
+  top: -40px
+
 .lista-ol--cuadro__vineta
   color: #12263F
 
-
 .tarjeta.tarjeta--azul.acordion__activo
   background-color: #BBDEAF
+
 .tarjeta--azul
   background-color: #DCE9D7
-
-
 
 .tarjeta--boton.color-secundario
   background-color: #FFF3C6
   transition: 
     background-color: #BBDEAF
-   
 
 .bgr
   &_3
@@ -112,13 +172,41 @@ ol.lista-puntero
   transition: transform .3s ease-in-out
   &:hover
     transform: scale(1.1)
+
 .hoverScale2
   transition: all .3s ease-in-out
   &:hover
     transform: scale(1.1)
     background-color:#FFD63D
+
 .bg--a-1
   background-color:  #F5EAD9
+
 .img131
   max-width: 131px
 
+.tarjeta--gris
+  background-color: #F0F8ED
+
+.tarjeta--sena
+  background-color: #EEF3F3
+
+.space1
+  height: 70px
+
+.space2
+  height: 240px
+
+@media screen and ( max-width: 1440px )
+
+  .space2
+    height: 290px
+
+@media screen and ( max-width: 992px )
+
+  .bg01
+    background-color: #F4F4F4
+    background-image: none
+
+  .space2
+    height: 170px

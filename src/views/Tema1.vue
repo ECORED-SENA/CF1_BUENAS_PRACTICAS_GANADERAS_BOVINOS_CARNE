@@ -8,13 +8,12 @@
       h1 Empresa ganadera bovina de carne
 
     .row.bg01.align-items-center.mb-5(data-aos="fade-right")
-      .col-lg-7.p-5
-        p.mb-3 Combina en su operación productiva varios factores importantes como el diagnóstico, las metas, la planificación, el control, entre otros, para un adecuado funcionamiento de la empresa bovina. Se debe implementar una técnica o manejo especial que mejore la calidad del producto, en este caso la producción de carne, destinada a un mercado exigente y muy competitivo a nivel local y global.
-        p.mb-3 Las empresas ganaderas son una unidad económica de producción en la cual se debe tener en cuenta:
-      .col-md-4.col
+      .col-lg-7.p-4
+        p #[b Combina en su operación productiva varios factores importantes como el diagnóstico, las metas, la planificación, el control, entre otros, para un adecuado funcionamiento de la empresa bovina]. Se debe implementar una técnica o manejo especial que mejore la calidad del producto, en este caso la producción de carne, destinada a un mercado exigente y muy competitivo a nivel local y global.
+        p.mb-0 Las empresas ganaderas son una unidad económica de producción en la cual se debe tener en cuenta:
+      .col-lg-4.mb-3
         figure
-         img(src='@/assets/curso/tema1/img01.png', alt='Texto que describa la imagen')(data-aos="fade-right")
-
+         img(src='@/assets/curso/tema1/img01.png', style="width: 350px").m-auto(data-aos="fade-right")
     SlyderE(indicadores="arriba").mb-5(data-aos="fade-right")
       .row
         .col-md-4.mb-4.mb-md-0
@@ -37,7 +36,6 @@
         .col-md-8
           figure
             img(src='@/assets/curso/tema1/img04.png', alt='Texto que describa la imagen')
-            
       .row
         .col-md-4.mb-4.mb-md-0
           h4 Base de la producción
@@ -54,24 +52,59 @@
             img(src='@/assets/curso/tema1/img06.png', alt='Texto que describa la imagen')
     .row.justify-content-center.mb-5
       .col-lg-10(data-aos="fade-right")
-        .row.bg02.justify-content-center.align-items-center.p-4
-          .col-lg-1
-            figure
-              img(src='@/assets/curso/tema1/img07.svg', alt='Texto que describa la imagen') 
-          .col-lg-10
-            p Para determinar la rentabilidad por hectárea de pasto por año se puede aplicar la siguiente fórmula:   
-            p.bg1.p-2 <strong>    COP/HA DE PASTO AÑO= Carga animal (UGG*/ha) X GMD (kg/UGG/día) X 365 días X MSV (%) X Valor del kg. </strong>
-    
+        .cajon.color-primario.p-3
+          .row.align-items-center
+            .col-auto
+              figure
+                img(src='@/assets/curso/tema1/img07.svg', style="width: 80px") 
+            .col
+              p Para determinar la rentabilidad por hectárea de pasto por año se puede aplicar la siguiente fórmula:   
+              p.bg1.p-2 #[b COP/HA DE PASTO AÑO= Carga animal (UGG*/ha) X GMD (kg/UGG/día) X 365 días X MSV (%) X Valor del kg.]
     .row.justify-content-center.mt-5.mb-5
       .col-md-4.mt-5
         img(src='@/assets/curso/tema1/1.svg', alt='Texto que describa la imagen')
     .row.justify-content-center.mb-5
-      .col-md-8.p-5.bg2
-        .row.p-5
+      .col-md-9.bg2
+        .row.py-5.px-4
           .col-lg-12
-            p <strong>UGG:</strong> unidad gran ganado, que equivale a 450 kg de peso vivo.
-            img(src='@/assets/curso/tema1/2.svg', alt='Texto que describa la imagen')
-    p Las fases de importancia para la creación de una empresa ganadera se dividen en: 
+            p.mb-4 #[b UGG:] unidad gran ganado, que equivale a 450 kg de peso vivo.
+            .tabla-a.color-acento-botones
+              table
+                thead
+                  tr(style="background-color: #FCF9F4")
+                    th(colspan="3") Ejemplo
+                tbody
+                  tr
+                    th(style="background-color: #FFDECF") Variables
+                    th(style="background-color: #DDEFD7") Ganadería #1
+                    th(style="background-color: #FFF3C6") Ganadería #2
+                  tr
+                    th(style="background-color: #FFDECF")
+                      p.mb-0 #[b Carga animal]
+                      p.mb-0 #[b (UGG/ha)]
+                    th(style="background-color: #DDEFD7") 1
+                    th(style="background-color: #FFF3C6") 1.5
+                  tr
+                    th(style="background-color: #FFDECF") GMD (Kg/UGG/Día)
+                    th(style="background-color: #DDEFD7") 0.45
+                    th(style="background-color: #FFF3C6") 0.45
+                  tr
+                    th(style="background-color: #FFDECF") MSV (%)
+                    th(style="background-color: #DDEFD7") 49
+                    th(style="background-color: #FFF3C6") 49
+                  tr
+                    th(style="background-color: #FFDECF") Valor del KG. (COP)
+                    th(style="background-color: #DDEFD7") 4500
+                    th(style="background-color: #FFF3C6") 4500
+                  tr
+                    th(colspan="3", style="background-color: #FFD63D")
+                      p.mb-0 #[b Ganadería 1: cop/ha de pasto año: 1 UGG/ha x 0.45 kg/día]
+                      p.mb-0 #[b x 365 x 49% x cop 4500 cop/ha de pasto año: 362171]
+                  tr
+                    th(colspan="3", style="background-color: #FFD63D")
+                      p.mb-0 #[b Ganadería 2: cop/ha de pasto año: 1.5 UGG/ha x 0.45 kg/día]
+                      p.mb-0 #[b x 365 x 49% x cop 4500 cop/ha de pasto año: 543256]
+    p.mb-5 Las fases de importancia para la creación de una empresa ganadera se dividen en: 
     .row.mb-4.mb-md-5(data-aos="fade-down")
       .col-lg-3.mb-3.mb-md-0
         .tarjeta.tarjeta-foto-hover
@@ -110,41 +143,44 @@
             .p-4
               h5 Control
               p.mb-0 Busca verificar todas las acciones ejecutadas y ver si están conforme a lo planteado, con el fin de tener un producto de excelente calidad y confiable para el consumo humano.
-    .row
-      .col-lg-3.bg4.p-1
-        h4.mt-2 Estructura y características   
-    .row.mt-5
-      .col-md-5
-        img(src='@/assets/curso/tema1/7.png', alt='Texto que describa la imagen')
-
-      .col-md-6.mt-5
-        p.mt-4 La ganadería bovina de carne en nuestro territorio viene fungiendo desde tiempos de la conquista española, con la introducción de ganado andaluz que posteriormente, dio origen a las razas nativas; seguido de ello fue introducida la raza Cebú de la línea Brahman y así sucesivamente se fue creando un hato ganadero que fue mejorado poco a poco con la inclusión de más razas como la Bos Tauros, Santa Gertrudis, Charoláis, entre otras.
-        p Los sistemas de explotación en Colombia están basados en modelos que, a continuación, se mencionan; procure llevar registro de los aspectos más destacados en su libreta personal de apuntes:
-    figure.mb-5.mt-5
+    .row(style="margin-inline: -3.2rem !important")
+      .col-12.p-5.p-lg-2
+        .row
+          .col-5.col-lg-4.bg4.p-1
+            h4.mt-2.ms-lg-2 Estructura y características   
+        .row.align-items-center.mt-5
+          .col-lg-5.px-0
+            img(src='@/assets/curso/tema1/7.png', style="width: 450px")
+          .col-lg-6
+            p La ganadería bovina de carne en nuestro territorio viene fungiendo desde tiempos de la conquista española, con la introducción de ganado andaluz que posteriormente, dio origen a las razas nativas; seguido de ello fue introducida la raza Cebú de la línea Brahman y así sucesivamente se fue creando un hato ganadero que fue mejorado poco a poco con la inclusión de más razas como la Bos Tauros, Santa Gertrudis, Charoláis, entre otras.
+            p.mb-0 Los sistemas de explotación en Colombia están basados en modelos que, a continuación, se mencionan; procure llevar registro de los aspectos más destacados en su libreta personal de apuntes:
+    figure.my-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    .row
-      .col-lg-3.bg4.p-1
-        h4.mt-2 Funciones 
+    .row(style="margin-inline: -3.2rem !important")
+      .col-12.p-5.p-lg-3
+        .row
+          .col-5.col-lg-4.bg4.p-1
+            h4.mt-2 Funciones
     .row.justify-content-center
-      .col-lg-10
+      .col-lg-10.px-0
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mt-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema1/8.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-2 La función de la empresa ganadera de carne es dar un mejor manejo del mercado bajo los parámetros técnicos establecidos, para minimizar gastos de producción y mejorar la productividad.
-            <br>
-            <br>
-            | <strong>Las exigencias del mercado han mostrado la importancia de cambiar la ganadería tradicional en sistemas de producción, bajo estándares de calidad con visión empresarial.</strong>
+            p La función de la empresa ganadera de carne es dar un mejor manejo del mercado bajo los parámetros técnicos establecidos, para minimizar gastos de producción y mejorar la productividad.
+            br
+            br
+            p.mb-0 #[b Las exigencias del mercado han mostrado la importancia de cambiar la ganadería tradicional en sistemas de producción, bajo estándares de calidad con visión empresarial.]
       .col-lg-10.mt-5
-        .row.justify-content-center.bg5.p-2
-          .col-lg-1.mt-2.bb
-            img(src='@/assets/curso/tema1/9.svg', alt='Texto que describa la imagen') 
-          .col-lg-2.mt-4
-            p <strong>¡importante!</strong>
-          .col-lg-7.mt-2
-            p Cada vez más, se hace imprescindible estar certificados y cumplir con los estándares en todas las líneas de proceso, con el fin de garantizar la calidad e inocuidad del producto final.
+        .row.justify-content-center.align-items-center.bg5.p-2
+          .col-lg-auto
+            img(src='@/assets/curso/tema1/9.svg', style="width: 70px") 
+          .col-lg-2
+            p.mb-0 #[b ¡importante!]
+          .col-lg-7
+            p.mb-0 Cada vez más, se hace imprescindible estar certificados y cumplir con los estándares en todas las líneas de proceso, con el fin de garantizar la calidad e inocuidad del producto final.
           
 </template>
 
