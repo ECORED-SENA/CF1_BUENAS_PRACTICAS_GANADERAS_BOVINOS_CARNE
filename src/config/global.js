@@ -116,6 +116,20 @@ export default {
         numero: '9',
         titulo: 'Organización de una empresa de ganado bovino',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '9.1',
+            titulo: 'Registros',
+            hash: 't_9_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '9.2',
+            titulo: 'Análisis económico',
+            hash: 't_9_2',
+          },
+        ],
       },
     ],
     subMenu: [

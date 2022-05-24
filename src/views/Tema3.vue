@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 3
       h1 BPG en producción de bovinos de carne
-    .row.justify-content-center.align-items-center.bg9
+    .row.justify-content-center.align-items-center.bg9(data-aos="fade-right")
       .col-lg-6.mt-5
         p La economía colombiana gira alrededor del desarrollo de los diferentes procesos que son parte de los sectores económicos primarios, secundarios y terciarios, siendo la labor agrícola y agroindustrial una de las más importantes debido a la exportación y producción de bienes de consumo que abastecen, en gran medida, la canasta familiar, como lo es el consumo y producción de alimentos de origen animal.
         .row
@@ -20,11 +20,11 @@
       .col-lg-3.mb-4.mb-lg-0
         img(src='@/assets/curso/tema3/2.png', style="width: 350px").m-auto
       .col-lg-9
-        SlyderF(columnas="col-lg-6 col-xl-6")
-          .tarjeta.bg7.p-5
+        SlyderF(columnas="col-lg-6 col-xl-6")(data-aos="fade-right")
+          .tarjeta.bg7.p-5.h-100
             img(src='@/assets/curso/tema3/img1.svg', style="width: 40px").img-deco1
             p.mb-4 #[b 1.] Las exigencias del consumo, exportación y globalización han mostrado la necesidad de reconvertir la ganadería en un sistema de producción de alta competitividad, con una visión empresarial a largo plazo y con finalidad de satisfacer la demanda a nivel nacional e internacional.
-          .tarjeta.bg7.p-5
+          .tarjeta.bg7.p-5.h-100
             img(src='@/assets/curso/tema3/img2.svg', style="width: 40px").img-deco1
             p.mb-4 #[b 2.] El Instituto Colombiano Agropecuario (ICA) es la entidad encargada de la promoción de las buenas prácticas ganaderas (BPG) en el país.
             br
@@ -33,26 +33,26 @@
           .tarjeta.bg7.p-5
             img(src='@/assets/curso/tema3/img3.svg', style="width: 40px").img-deco1
             p.mb-0 #[b 3.] En 2007 se creó una legislación oficial con la que productores agrícolas y pecuarios deben cumplir requisitos mínimos que garanticen calidad e inocuidad de alimentos, buscando bienestar humano, animal y vegetal, que redunde en el mejoramiento de los ingresos y la calidad de vida de las personas del campo.
-          .tarjeta.bg7.p-5
+          .tarjeta.bg7.p-5.h-100
             img(src='@/assets/curso/tema3/img4.svg', style="width: 40px").img-deco1
             p #[b 4.] De los 32 departamentos de Colombia, 27 tienen procesos importantes de la producción ganadera; ello indica una amplia parte (territorios, entornos y personas) del país.
             br
             br.mb-2
             br.mb-4
-          .tarjeta.bg7.p-5
+          .tarjeta.bg7.p-5.h-100
             img(src='@/assets/curso/tema3/img5.svg', style="width: 40px").img-deco1
             p #[b 5.] Las buenas prácticas ganaderas (BPG) favorecen la producción y alcance de productos agrícolas seguros y que no afecten la salud de consumidores.
             br
             br.mb-2
             br.mb-4
-          .tarjeta.bg7.p-5
+          .tarjeta.bg7.p-5.h-100
             img(src='@/assets/curso/tema3/img6.svg', style="width: 40px").img-deco1
             p #[b 6.] Las resoluciones vigentes para la implementación de las BPG en una empresa productora de leche es la Resolución 3585 de 2008 y para una empresa de carne es la Resolución 2341 de 2007.
             br.mb-3
             br.mb-4
     .separador.mb-5
     #t_3_1
-    .titulo-segundo.color-secundario
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.1 Componentes BPG
     p Para la implementación de los componentes de las buenas prácticas ganaderas se debe realizar un registro de cada una de las actividades relacionadas con el sector ganadero, además de ello, se debe contar con una planilla de verificación en la cual se debe llevar el control de la actividad realizada.
     p En el siguiente recurso entérese de los temas y apartes que se tratan en la aplicación de las buenas prácticas de ganadería:    
@@ -61,16 +61,16 @@
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.justify-content-center.mb-5
       .col-lg-10
-        .row.justify-content-center.align-items-center.bg5.p-2
+        .row.justify-content-center.align-items-center.bg5.p-2(data-aos="fade-right")
           .col-auto
             img(src='@/assets/curso/tema1/9.svg', style="10px").m-auto
           .col-lg-2
-            p.mb-0 #[b ¡importante!]
+            p.text-center.mb-3 #[b ¡importante!]
           .col-lg-8
             p.mb-0 Es indispensable, en la aplicación de buenas prácticas ganaderas, cumplir con la certificación de acuerdo con el Plan de Ordenamiento Territorial (POT) y locativos.
     .separador.mb-5
     #t_3_2
-    .titulo-segundo.color-secundario
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2  3.2 Criterios de cumplimiento y listas de chequeo
     p.mb-5 #[b Cada empresa del sector ganadero debe contar con un plan y registro de actividades, acordes al cumplimento de las diferentes normas y resoluciones, además de mantener a su personal apto y competitivo.] Entre los criterios de cumplimiento y listas de chequeo más importantes, se mencionan los siguientes:        
     .col-12.mb-5
@@ -83,12 +83,12 @@
           .lista-ol--cuadro__vineta
             span 2
           | Los documentos que hacen parte integral de la presente Resolución ICA en el Artículo 12, como son sus anexos técnicos así:
-      p.mb-0 #[b Anexo I. Lista de chequeo certificación de BPA.]
-      p.mb-0 #[b Anexo II. Criterios de cumplimiento para certificación de predios en BPA.]
-      p.mb-5 #[b Anexo III. Solicitud de auditoría en BPA.]
+        p.mb-0 #[b Anexo I. Lista de chequeo certificación de BPA.]
+        p.mb-0 #[b Anexo II. Criterios de cumplimiento para certificación de predios en BPA.]
+        p.mb-5 #[b Anexo III. Solicitud de auditoría en BPA.]
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
-        .row.justify-content-center.align-items-center.bg10.p-3
+        .row.justify-content-center.align-items-center.bg10.p-3(data-aos="fade-right")
           .col-auto
             img(src='@/assets/curso/tema3/3.svg', style="width: 90px") 
           .col-md-8
@@ -100,11 +100,11 @@
               i.fas.fa-file-download(style="color: #000 !important")
     .separador.mb-5
     #t_3_3
-    .titulo-segundo.color-secundario
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2  3.3. Aplicación BPG
     p.mb-0 #[b La aplicación de las buenas prácticas ganaderas busca el mejoramiento de los procesos productivos de la empresa.]
     p.mb-5 Para ello, se deben de tener en cuenta los siguientes lineamientos: 
-    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-right")
       .row.justify-content-center(titulo="Reducción de los costos de producción")
         .col-md-11.mb-4.mb-md-0.mt-5
           p.mb-5 El manejo tecnificado logra la incrementación de la producción, minimiza manejos innecesarios y disminuye enfermedades. Además, asegura la inocuidad de alimentos como carne y leche con la implementación de un plan sanitario acorde a la reglamentación. Todo ello genera reducción de costos y favorece animales aptos para el consumo, la reproducción y la producción.

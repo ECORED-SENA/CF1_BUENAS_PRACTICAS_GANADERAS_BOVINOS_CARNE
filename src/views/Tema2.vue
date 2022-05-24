@@ -6,10 +6,10 @@
       .titulo-principal__numero
         span 2
       h1 Política sanitaria y de inocuidad en alimentos 
-    p.mb-5 La política sanitaria está regida bajo estatutos internacionales por la Organización Mundial de Sanidad Animal, OIE. A nivel país lo está por los organismos o entidades como la Federación Colombiana de Ganaderos FEDEGAN, que están encargadas del manejo de enfermedades de control oficial y otros parámetros como el levante, manejo y producción bovina.
+    p(data-aos="fade-right").mb-5 La política sanitaria está regida bajo estatutos internacionales por la Organización Mundial de Sanidad Animal, OIE. A nivel país lo está por los organismos o entidades como la Federación Colombiana de Ganaderos FEDEGAN, que están encargadas del manejo de enfermedades de control oficial y otros parámetros como el levante, manejo y producción bovina.
     .row.justify-content-center.mb-5
       .col-lg-10
-        .cajon.color-acento-contenido.p-4
+        .cajon.color-acento-contenido.p-4(data-aos="fade-right")
           .row.align-items-center
             .col-auto
               img(src='@/assets/curso/tema2/1.svg', style="width: 80px") 
@@ -21,7 +21,7 @@
         img(src='@/assets/curso/tema2/2.svg', alt='Texto que describa la imagen')(data-aos="fade-right") 
     Separador
     #t_2_1
-    .titulo-segundo.color-acento-contenido
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.1 Normatividad
     p.mb-5 Es una herramienta implementada por el Gobierno Nacional, que ejerce control, vigilancia y protección a animales a nivel individual y colectivo, además de protección al medio ambiente, evitando así pérdidas de carácter económico, perjuicios en la salud humana y regulando la comercialización de productos y animales.
     .row.justify-content-center.mb-5
@@ -38,7 +38,7 @@
         ImagenInfografica.color-acento-contenido.mb-5
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/tema2/3.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/tema2/3.svg', alt='Texto que describa la imagen')(data-aos="fade-right")
           .tarjeta.color-acento-botones.p-3(x="62.4%" y="17%" numero="")
             .h5.mb-2 Ley 395 de 1997
             p Por la cual se declara de interés social, nacional y como prioridad sanitaria la erradicación de la fiebre aftosa en todo el territorio colombiano y se dictan otras medidas encaminadas a este fin.
@@ -62,10 +62,10 @@
             p Por la cual se establecen medidas sanitarias para la prevención, el control y la erradicación de la tuberculosis bovina en Colombia.
     p.mb-5 En cuanto a la inocuidad pecuaria conozca en la siguiente gráfica la reglamentación existente; tenga presente que tales normativas se actualizan, se postulan cambios y ajustes permanentes para las prácticas ganaderas de producción:
     .row.justify-content-center.mb-5
-      .col-4.p-4.mb-5.bg15
-        h3.mb-0.text-center Inocuidad Pecuaria
+      .col-lg-4.p-4.mb-5.bg15
+        h5.mb-0.text-center Inocuidad Pecuaria
       .col-lg-10
-        TabsB.color-acento-contenido
+        TabsB.color-acento-contenido(data-aos="fade-right")
           .py-4.py-md-5(titulo="Documento CONPES 3676 de 2010" :icono="require('@/assets/curso/tema2/img1.svg')").bg16
             .row
               .col-12.p-4
@@ -93,21 +93,22 @@
                 p Por el cual se expide el reglamento técnico sobre los requisitos que debe cumplir la leche para el consumo humano que se obtenga, procese, envase, transporte, comercialice, expenda, importe o exporte en el país.
     .row.justify-content-center.mt-5.bg7.p-5
       .col-lg-3
-        img(src='@/assets/curso/tema2/4.svg', alt='Texto que describa la imagen')
-      .col-lg-6
-        h2 Normatividad
-        p.mb-4 Amplíe su conocimiento en normatividad sobre buenas prácticas de ganadería, visitando los enlaces que aquí se proponen; recuerde llevar registro de los aspectos más importantes en su libreta personal de apuntes:
+        img(data-aos="fade-right")(src='@/assets/curso/tema2/4.svg', alt='Texto que describa la imagen')
+      .col-lg-6.p-5
+        .titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 Normatividad
+        p(data-aos="fade-left").mb-4 Amplíe su conocimiento en normatividad sobre buenas prácticas de ganadería, visitando los enlaces que aquí se proponen; recuerde llevar registro de los aspectos más importantes en su libreta personal de apuntes:
         a.boton.color-acento-botones.texto-blanco(href="https://www.ica.gov.co/getdoc/016f3c96-a458-4fa6-ae96-41d18b2221f5/requisitos-sanitarios-y-de-inocuidad-en-la-producc.aspx" target="_blank")
           span.text-white Descargar
           i.fas.fa-file-download
     Separador
     #t_2_2
-    .titulo-segundo.color-acento-contenido
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.2 Implicaciones e importancia
     p.mb-5 La ganadería en los últimos años se ha considerado un factor clave para el desarrollo sostenible de la agricultura en Colombia. Según datos estadísticos del Ministerio de Agricultura la importancia de la ganadería en Colombia es fundamental en la generación de ingresos y rentabilidad a nivel nacional e internacional.
     .row.justify-content-center.mb-5
       .col-lg-10
-        .cajon.color-acento-contenido.p-4
+        .cajon.color-acento-contenido.p-4(data-aos="fade-right")
           .row.align-items-center
             .col-auto
               img(src='@/assets/curso/tema2/1.svg', style="width: 70px") 
@@ -115,7 +116,7 @@
               p.mb-0 Esta actividad agrícola representa una insignia de calidad en productos de exportación, además de ser tres veces mayor su valor de producción en cuanto a la producción cafetera. 
     p.mb-5 Sobre las implicaciones e importancia del sector ganadero en Colombia tenga en cuenta los siguientes aspectos:
     .tarjeta.tarjeta--sena.p-4
-      PasosB.color-acento-contenido
+      PasosB.color-acento-contenido(data-aos="fade-right")
         .row(titulo="").justify-content-center
           .col-lg-6.bg11.p-5
             h4 Exportaciones

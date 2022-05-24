@@ -28,21 +28,21 @@
           p Se debe tener en cuenta que el manejo es organizacional y que está en constante cambio, por los modelos que se aplican en los países desarrollados y son tomados como ejemplo en nuestro país, implementando pautas y toma de decisiones que permiten una evolución constante.
         .col-md-8
           figure
-            img(src='@/assets/curso/tema1/img03.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema1/img03.jpg', alt='Texto que describa la imagen')
       .row
         .col-md-4.mb-4.mb-md-0
           h4 Orientarse a los objetivos
           p La ganadería de carne como empresa busca un objetivo primordial que es la producción de carne por medio de un manejo que sea sencillo y genere rentabilidad.
         .col-md-8
           figure
-            img(src='@/assets/curso/tema1/img04.png', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/tema1/img05.png', alt='Texto que describa la imagen')
       .row
         .col-md-4.mb-4.mb-md-0
           h4 Base de la producción
           p La producción de carne se basa en el resultado por hectárea (Ha) y esta se determina en producción de kilogramos: carne por hectárea, así mismo, depende de la ganancia media diaria de peso (GMD) y la capacidad de carga animal.
         .col-md-8
           figure
-            img(src='@/assets/curso/tema1/img05.png', alt='Texto que describa la imagen')     
+            img(src='@/assets/curso/tema1/img04.png', alt='Texto que describa la imagen')     
       .row
         .col-md-4.mb-4.mb-md-0
           h4 Rentabilidad
@@ -67,9 +67,9 @@
       .col-md-9.bg2
         .row.py-5.px-4
           .col-lg-12
-            p.mb-4 #[b UGG:] unidad gran ganado, que equivale a 450 kg de peso vivo.
+            p(style="font-size: 18px").mb-4 #[b UGG:] unidad gran ganado, que equivale a 450 kg de peso vivo.
             .tabla-a.color-acento-botones
-              table
+              table(style="font-size: 15px")
                 thead
                   tr(style="background-color: #FCF9F4")
                     th(colspan="3") Ejemplo
@@ -109,8 +109,8 @@
       .col-lg-3.mb-3.mb-md-0
         .tarjeta.tarjeta-foto-hover
           .tarjeta-foto-hover__img: img(src='@/assets/curso/tema1/3.png')
-          .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-2.bg3
-            h4.mb-0 Diagnóstico
+          .tarjeta-foto-hover__titulo.d-flex.align-items-center.p-2.bg3
+            h4.mb-0.p-2 Diagnóstico
           .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
             .p-4
               h5 Diagnóstico
@@ -119,8 +119,8 @@
         .tarjeta.tarjeta-foto-hover(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
           .tarjeta-foto-hover__img: img(src='@/assets/curso/tema1/4.png')
-          .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-2.bg3
-            h4.mb-0 Metas
+          .tarjeta-foto-hover__titulo.d-flex.align-items-center.p-2.bg3
+            h4.mb-0.p-2 Metas
           .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
             .p-4
               h5 Metas
@@ -128,8 +128,8 @@
       .col-lg-3.mb-3.mb-md-0
         .tarjeta.tarjeta-foto-hover
           .tarjeta-foto-hover__img: img(src='@/assets/curso/tema1/5.png')
-          .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-2.bg3
-            h4.mb-0 Planificación
+          .tarjeta-foto-hover__titulo.d-flex.align-items-center.p-2.bg3
+            h4.mb-0.p-2  Planificación
           .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
             .p-4
               h5 Planificación
@@ -137,8 +137,8 @@
       .col-lg-3.mb-3.mb-md-0
         .tarjeta.tarjeta-foto-hover
           .tarjeta-foto-hover__img: img(src='@/assets/curso/tema1/6.png')
-          .tarjeta-foto-hover__titulo.d-flex.justify-content-center.align-items-center.p-2.bg3
-            h4.mb-0 Control
+          .tarjeta-foto-hover__titulo.d-flex.align-items-center.p-2.bg3
+            h4.mb-0.p-2 Control
           .tarjeta-foto-hover__tarjeta.bg-degrade.d-flex.align-items-center.justify-content-center
             .p-4
               h5 Control
@@ -146,9 +146,9 @@
     .row(style="margin-inline: -3.2rem !important")
       .col-12.p-5.p-lg-2
         .row
-          .col-5.col-lg-4.bg4.p-1
-            h4.mt-2.ms-lg-2 Estructura y características   
-        .row.align-items-center.mt-5
+          .col-5.col-lg-4.bg4.p-3
+            h3.mt-2.ms-lg-2 Estructura y características   
+        .row.align-items-center
           .col-lg-5.px-0
             img(src='@/assets/curso/tema1/7.png', style="width: 450px")
           .col-lg-6
@@ -160,8 +160,8 @@
     .row(style="margin-inline: -3.2rem !important")
       .col-12.p-5.p-lg-3
         .row
-          .col-5.col-lg-4.bg4.p-1
-            h4.mt-2 Funciones
+          .col-5.col-lg-4.bg4.p-3
+            h3.mt-2 Funciones
     .row.justify-content-center
       .col-lg-10.px-0
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mt-5
@@ -174,11 +174,11 @@
             br
             p.mb-0 #[b Las exigencias del mercado han mostrado la importancia de cambiar la ganadería tradicional en sistemas de producción, bajo estándares de calidad con visión empresarial.]
       .col-lg-10.mt-5
-        .row.justify-content-center.align-items-center.bg5.p-2
+        .row.justify-content-center.align-items-center.bg5.p-3
           .col-lg-auto
-            img(src='@/assets/curso/tema1/9.svg', style="width: 70px") 
+            img(src='@/assets/curso/tema1/9.svg', style="width: 80px").m-auto
           .col-lg-2
-            p.mb-0 #[b ¡importante!]
+            p.text-center.mb-3 #[b ¡importante!]
           .col-lg-7
             p.mb-0 Cada vez más, se hace imprescindible estar certificados y cumplir con los estándares en todas las líneas de proceso, con el fin de garantizar la calidad e inocuidad del producto final.
           

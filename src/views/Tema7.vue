@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 7
       h1 Empresa ganadera bovina de carne
-    p.mb-5 La seguridad y salud en el trabajo es de suma importancia en el manejo de la explotación ganadera sin importar su propósito; conocer los diferentes peligros a los que se exponen los trabajadores de este gremio, permite prevenir accidentes y enfermedades de origen laboral. En el sector ganadero, los riesgos más comunes suelen ser los locativos, biológicos y mecánicos, ver tabla.
+    p(data-aos="fade-right").mb-5 #[b La seguridad y salud en el trabajo es de suma importancia en el manejo de la explotación ganadera sin importar su propósito]; conocer los diferentes peligros a los que se exponen los trabajadores de este gremio, permite prevenir accidentes y enfermedades de origen laboral. En el sector ganadero, los riesgos más comunes suelen ser los locativos, biológicos y mecánicos, ver tabla.
     .row.justify-content-center.mb-5
       .col-10
         .titulo-sexto.color-acento-contenido.mb-5
@@ -73,7 +73,7 @@
                 td(colspan="2", style="background-color: #FFFFFF")
                   p.mb-0 Por el cual se modifica parcialmente el Decreto 2838 de 2006 y se dictan otras disposiciones.
     p.mb-5 En lo relativo a la indumentaria necesaria en ganadería de carne, los implementos acordes a la normativa de SST del Manejo integrado de plagas (MIP) buscan proteger la salud del trabajador, para ello se debe de tener en cuenta el uso adecuado y la calidad de los siguientes elementos:
-    .row.mb-5.justify-content-center
+    .row.mb-5.justify-content-center(data-aos="fade-right")
       .col-4.col-lg-2.col-xl-1.mb-4.mb-lg-0
         img(src='@/assets/curso/tema7/1.svg', style='width: 270px').mb-3.m-auto.hoverScale
         .row
@@ -110,9 +110,9 @@
           .col-12
             p.text-center.mb-0 Delantal o bata industrial
     .row(data-aos="zoom-in").justify-content-center
-      .col-md-10
+      .col-md-8
         TabsC.color-acento-contenido
-          .py-5.py-md-10.bgr_3.p-4(titulo=" 01. ¡Importante!")
+          .py-5.py-md-10.bgr_3.p-4(titulo="01. ¡Importante!")
             p Estos implementos son de carácter obligatorio para el manejo de productos cárnicos, además de tener recomendaciones como productos desinfectantes y utensilios para la limpieza, de tipo industrial.
           .py-5.py-md-10.bgr_3.p-4(titulo="02. ¡Recuerde!")
             p Asegurar el área de ventilación e iluminación, la calidad del agua utilizada en las áreas de producción, plan de contingencia en caso de cortes eléctricos, mantenimientos preventivos en equipo y maquinaria para cárnicos, etc. 

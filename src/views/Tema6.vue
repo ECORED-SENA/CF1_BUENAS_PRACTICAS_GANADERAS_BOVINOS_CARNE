@@ -8,12 +8,12 @@
       h1 Diagnóstico de aplicación BPG en el predio
 
     .row.mb-5.bg04.align-items-center.mb-5(data-aos="fade-right")
-      .col-md-4.col
+      .col-md-5.col.p-5
         figure
-         img(src='@/assets/curso/tema6/1.png', alt='Texto que describa la imagen')(data-aos="fade-right")
-      .col.md-7.p-5
-        p.mb-3 Las BPG son las diversas actividades ganaderas que una empresa debe llevar a cabo a lo largo de la vida del animal, asegurando la inocuidad y enfocándose en la gestión del riesgo biológico, físico y químico, ya que el estado del predio puede afectar positiva o negativamente la salud y vida del animal y del consumidor.
-        p.mb-3 <strong>Adicionalmente a los pasos y acciones que acercan al predio a la certificación ICA, los ganaderos deben registrar sus predios ante esta misma Institución</strong>.
+         img.px-5(src='@/assets/curso/tema6/1.png', alt='Texto que describa la imagen')(data-aos="fade-right")
+      .col.md-6.p-5
+        p.px-3(data-aos="fade-left").mb-3 Las BPG son las diversas actividades ganaderas que una empresa debe llevar a cabo a lo largo de la vida del animal, asegurando la inocuidad y enfocándose en la gestión del riesgo biológico, físico y químico, ya que el estado del predio puede afectar positiva o negativamente la salud y vida del animal y del consumidor.
+        p.px-3.mb-3 <strong>Adicionalmente a los pasos y acciones que acercan al predio a la certificación ICA, los ganaderos deben registrar sus predios ante esta misma Institución</strong>.
     .row.align-items-center.mb-5
       .col-lg-6.align-items-center.mb-4.mb-lg-0
         p.mb-5 Por otro lado, se deben implementar una serie de medidas técnicas como las que se enuncian a continuación:
@@ -42,9 +42,9 @@
             .lista-ol--cuadro__vineta
               span 6
             | Personal.
-      .col-lg-6(data-aos="fade-left")
+      .col-lg-6(data-aos="fade-right")
         img(src='@/assets/curso/tema6/2.png', style="width: 350px").m-auto
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.align-items-center(data-aos="fade-left")
       .col-lg-10
         .row.justify-content-center.align-items-center.bg10.p-3
           .col-auto
