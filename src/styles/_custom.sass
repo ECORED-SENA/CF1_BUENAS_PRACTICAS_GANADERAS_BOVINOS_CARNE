@@ -14,7 +14,8 @@
   background-color: #FFD63D
 
 .linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
-  background-color: rgba(187,222,175,0.71)
+  background-color: #BBDEAF!important
+  color: #12263F
   
 .bg01
   background-image: url("../assets/curso/tema1/img1.svg") 
@@ -105,6 +106,13 @@
     background-color: #DDEFD7
     transition: all .3s ease-in-out
 
+.bg12
+  .bgtitulo1
+    background-color: #BBDEAF
+  .bgcontenido1
+    background-color: #DDEFD7
+    
+
 .bg11:hover
   .bgtitulo
     background-color: #FFCE7E
@@ -134,7 +142,7 @@
   background-color: #F5EAD9
 
 .tabs-c__tab
-  padding: 3px
+  padding: 5px
   border: 2px solid #FFD63D
   border-radius: 5px
 
@@ -171,8 +179,8 @@
 
 .img-deco1
   position: relative
-  left: -40px
-  top: -40px
+  left: -15px
+  top: -15px
 
 .lista-ol--cuadro__vineta
   color: #12263F
@@ -194,13 +202,14 @@
 
 .bgr
   &_3
-    background-color: #F0F8ED !important
+    background-color: #F0F8ED!important
     border-radius: 10px
 
 .tabs-c.color-acento-contenido .tabs-c__tab--active
   border-bottom-color: #FFD63D !important
   background-color: #FFD63D !important
-
+  line-height: 2.8
+  font-size: 18px
 ol.lista-puntero
   list-style-image: url("../assets/curso/tema4/6.svg")
 
@@ -208,7 +217,7 @@ ol.lista-puntero
   transition: transform .3s ease-in-out
   &:hover
     transform: scale(1.1)
-
+    transform: translateY(-10px)
 .hoverScale2
   transition: all .3s ease-in-out
   &:hover
@@ -274,3 +283,15 @@ ol.lista-puntero
     background-image: url("../assets/curso/portada/float3.svg"), url("../assets/curso/portada/float2.svg"), url("../assets/curso/portada/float1.svg"), url("../assets/curso/portada/banner-princiapal.png")
   100%
     background-image: url("../assets/curso/portada/float3.svg"), url("../assets/curso/portada/float2.svg"), url("../assets/curso/portada/float1.svg"), url("../assets/curso/portada/banner-princiapal.png")
+.t
+  font-size: 18px
+.t2
+  font-size: 15px
+.pasos-b.color-acento-contenido .pasos-b__header__item--active .pasos-b__header__item__dot
+  background-color:#BBDEAF
+  border-color:#BBDEAF
+.col-xl-1
+  width: 150px
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+    background-color:#BBDEAF

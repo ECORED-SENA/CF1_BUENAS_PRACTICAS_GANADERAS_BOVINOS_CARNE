@@ -67,7 +67,7 @@
     p.mb-5 Se presentan algunos aspectos clave, relacionados con el análisis económico de la producción ganadera; recuerde tomar nota de lo más destacado en su libreta personal de apuntes:
     .row.mb-5
       .col-lg-6.mb-4.mb-lg-0
-        img(src='@/assets/curso/tema9/img5.png', style="width: 350px").m-auto(data-aos="zoom-in")
+        img(src='@/assets/curso/tema9/img5.png', style="width: 400px").m-auto(data-aos="zoom-in")
       .col-lg-6
         LineaTiempoD.color-primario
           p(numero="1" titulo="Estimación de los costos de producción") Este tipo de costos hacen parte del uso de recursos productivos como lo son: administración, tierra, capital.

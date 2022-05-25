@@ -31,7 +31,7 @@
             tbody
               tr
                 td(colspan="3", style="background-color: #FFF3C6")
-                  p.mb-0 #[b FEDEGAN junto con entidades como el ICA se han encargado de enfocar acciones de apoyo sanitario que deben cumplir las plantas de beneficio y los carniceros, con el fin de cumplir las exigencias tanto nacionales como internacionales para los consumidores de productos cárnicos.]
+                  p.mb-0.p-4 #[b FEDEGAN junto con entidades como el ICA se han encargado de enfocar acciones de apoyo sanitario que deben cumplir las plantas de beneficio y los carniceros, con el fin de cumplir las exigencias tanto nacionales como internacionales para los consumidores de productos cárnicos.]
               tr
                 td(style="background-color: #DDEFD7")
                   p.mb-0 #[b Decreto 1500 de 2007]

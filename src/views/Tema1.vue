@@ -72,38 +72,38 @@
               table(style="font-size: 15px")
                 thead
                   tr(style="background-color: #FCF9F4")
-                    th(colspan="3") Ejemplo
+                    th.t(colspan="3") Ejemplo
                 tbody
                   tr
-                    th(style="background-color: #FFDECF") Variables
-                    th(style="background-color: #DDEFD7") Ganadería #1
-                    th(style="background-color: #FFF3C6") Ganadería #2
+                    th.t2(style="background-color: #FFDECF") Variables
+                    th.t2(style="background-color: #DDEFD7") Ganadería #1
+                    th.t2(style="background-color: #FFF3C6") Ganadería #2
                   tr
-                    th(style="background-color: #FFDECF")
-                      p.mb-0 #[b Carga animal]
-                      p.mb-0 #[b (UGG/ha)]
-                    th(style="background-color: #DDEFD7") 1
-                    th(style="background-color: #FFF3C6") 1.5
+                    th.t2(style="background-color: #FFDECF")
+                      p.mb-0.t2 #[b Carga animal]
+                      p.mb-0.t2 #[b (UGG/ha)]
+                    th.t2(style="background-color: #DDEFD7") 1
+                    th.t2(style="background-color: #FFF3C6") 1.5
                   tr
-                    th(style="background-color: #FFDECF") GMD (Kg/UGG/Día)
-                    th(style="background-color: #DDEFD7") 0.45
-                    th(style="background-color: #FFF3C6") 0.45
+                    th.t2(style="background-color: #FFDECF") GMD (Kg/UGG/Día)
+                    th.t2(style="background-color: #DDEFD7") 0.45
+                    th.t2(style="background-color: #FFF3C6") 0.45
                   tr
-                    th(style="background-color: #FFDECF") MSV (%)
-                    th(style="background-color: #DDEFD7") 49
-                    th(style="background-color: #FFF3C6") 49
+                    th.t2(style="background-color: #FFDECF") MSV (%)
+                    th.t2(style="background-color: #DDEFD7") 49
+                    th.t2(style="background-color: #FFF3C6") 49
                   tr
-                    th(style="background-color: #FFDECF") Valor del KG. (COP)
-                    th(style="background-color: #DDEFD7") 4500
-                    th(style="background-color: #FFF3C6") 4500
+                    th.t2(style="background-color: #FFDECF") Valor del KG. (COP)
+                    th.t2(style="background-color: #DDEFD7") 4500
+                    th.t2(style="background-color: #FFF3C6") 4500
                   tr
-                    th(colspan="3", style="background-color: #FFD63D")
-                      p.mb-0 #[b Ganadería 1: cop/ha de pasto año: 1 UGG/ha x 0.45 kg/día]
-                      p.mb-0 #[b x 365 x 49% x cop 4500 cop/ha de pasto año: 362171]
+                    th.t2(colspan="3", style="background-color: #FFD63D")
+                      p.mb-0.t2 #[b Ganadería 1: cop/ha de pasto año: 1 UGG/ha x 0.45 kg/día]
+                      p.mb-0.t2 #[b x 365 x 49% x cop 4500 cop/ha de pasto año: 362171]
                   tr
-                    th(colspan="3", style="background-color: #FFD63D")
-                      p.mb-0 #[b Ganadería 2: cop/ha de pasto año: 1.5 UGG/ha x 0.45 kg/día]
-                      p.mb-0 #[b x 365 x 49% x cop 4500 cop/ha de pasto año: 543256]
+                    th.t2(colspan="3", style="background-color: #FFD63D")
+                      p.mb-0.t2 #[b Ganadería 2: cop/ha de pasto año: 1.5 UGG/ha x 0.45 kg/día]
+                      p.mb-0.t2 #[b x 365 x 49% x cop 4500 cop/ha de pasto año: 543256]
     p.mb-5 Las fases de importancia para la creación de una empresa ganadera se dividen en: 
     .row.mb-4.mb-md-5(data-aos="fade-down")
       .col-lg-3.mb-3.mb-md-0

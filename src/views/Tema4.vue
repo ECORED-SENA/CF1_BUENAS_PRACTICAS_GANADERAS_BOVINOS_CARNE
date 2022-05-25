@@ -48,9 +48,9 @@
     .row(data-aos="zoom-in-up").justify-content-center.mb-5
       .col-md-8
         TabsC.color-acento-contenido(data-aos="fade-right")
-          .py-5.py-md-10.bgr_3.p-4(titulo=" 01. ¡Importante!")
+          .py-5.py-md-10.bgr_3.p-5(titulo=" 01. ¡Importante!")
             p Las Buenas Prácticas Ganaderas, como estrategia de calidad en la producción primaria, deben contar con lineamientos que permiten la certificación de la finca o empresa que lo requiera.
-          .py-5.py-md-10.bgr_3.p-4(titulo="02. ¡Recuerde!")
+          .py-5.py-md-10.bgr_3.p-5(titulo="02. ¡Recuerde!")
             p El instituto colombiano agropecuario (ICA), es la entidad certificadora en BPG; para ello hay establecido un procedimiento y unos requisitos que serán solicitados a aquellos predios que se dedican a la producción de carne bovina y que se destinan al sacrificio y el consumo humano.
     .row.align-items-center.mb-4.mb-lg-0
       .col-md-6.p-2(data-aos="fade-right")
