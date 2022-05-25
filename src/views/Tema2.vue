@@ -61,9 +61,11 @@
             .h5.mb-2 Resolución 1513 de 2004
             p Por la cual se establecen medidas sanitarias para la prevención, el control y la erradicación de la tuberculosis bovina en Colombia.
     p.mb-5 En cuanto a la inocuidad pecuaria conozca en la siguiente gráfica la reglamentación existente; tenga presente que tales normativas se actualizan, se postulan cambios y ajustes permanentes para las prácticas ganaderas de producción:
-    .row.justify-content-center.mb-5
-      .col-lg-4.p-4.mb-5.bg15
+    .row.justify-content-center.align-content-center.mb-5
+      .col-lg-4.p-4.mb-0.bg15
         h5.mb-0.text-center Inocuidad Pecuaria
+      .col-lg-10
+        img.px-5(src='@/assets/curso/tema2/img02.svg', alt='Texto que describa la imagen')
       .col-lg-10
         TabsB.color-acento-contenido(data-aos="fade-right")
           .py-4.py-md-5(titulo="Documento CONPES 3676 de 2010" :icono="require('@/assets/curso/tema2/img1.svg')").bg16
