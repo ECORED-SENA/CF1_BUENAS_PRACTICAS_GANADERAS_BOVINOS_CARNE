@@ -93,7 +93,7 @@
               .col-12.p-4
                 h4 Decreto 616 de 2006
                 p Por el cual se expide el reglamento técnico sobre los requisitos que debe cumplir la leche para el consumo humano que se obtenga, procese, envase, transporte, comercialice, expenda, importe o exporte en el país.
-    .row.justify-content-center.mt-5.bg7.p-5
+    .row.justify-content-center.align-items-center.mt-5.bg7.p-5
       .col-lg-3
         img(data-aos="fade-right")(src='@/assets/curso/tema2/4.svg', alt='Texto que describa la imagen')
       .col-lg-6.p-5
@@ -119,32 +119,32 @@
     p.mb-5 Sobre las implicaciones e importancia del sector ganadero en Colombia tenga en cuenta los siguientes aspectos:
     .tarjeta.tarjeta--sena.p-4
       PasosB.color-acento-contenido(data-aos="fade-right")
-        .row(titulo="").justify-content-center.align-content-center
-          .col-lg-6.bg12
+        .row(titulo="").justify-content-center.p-lg-5
+          .col-lg-6.bg12.pdr
             h4.p-3.mb-0.me-0.bgtitulo1 Exportaciones
-            p.p-5.me-0.bgcontenido1 De acuerdo con los datos recopilados en el 2019, Colombia exportó el 4.2% de su producción nacional, tanto de carne de res (20,773 toneladas) como de ganado vivo (75,370 cabezas de ganado, equivalente a 19,094 toneladas de carne). 
-          .col-lg-5.px-0
-            figure
-              img(src='@/assets/curso/tema2/7.jpg', style="width: 450px")
-        .row(titulo="").justify-content-center.align-content-center
-          .col-lg-6.bg12
-            h4.p-3.mb-0.bgtitulo1 Valor de exportación
-            p.p-5.bgcontenido1 Dichos productos generan un valor de exportación de 132 millones de dólares (DANE-ESAGa, 2020; FEDEGAN, 2020a; FEDEGAN-FNG, 2020) y se dirigen principalmente hacia mercados de bajo valor como Líbano e Irak (ganado vivo) y Rusia, Líbano, Vietnam o Egipto (carne vacuna).
+            p.mb-0.p-3.p-lg-5.bgcontenido1.alt De acuerdo con los datos recopilados en el 2019, Colombia exportó el 4.2% de su producción nacional, tanto de carne de res (20,773 toneladas) como de ganado vivo (75,370 cabezas de ganado, equivalente a 19,094 toneladas de carne). 
           .col-lg-5.px-0
             figure
               img(src='@/assets/curso/tema2/8.jpg', style="width: 450px")
-        .row(titulo="").justify-content-center.align-content-center
-          .col-lg-6.bg12
+        .row(titulo="").justify-content-center.p-lg-5
+          .col-lg-6.bg12.pdr
+            h4.p-3.mb-0.bgtitulo1 Valor de exportación
+            p.mb-0.p-3.p-lg-5.bgcontenido1.alt Dichos productos generan un valor de exportación de 132 millones de dólares (DANE-ESAGa, 2020; FEDEGAN, 2020a; FEDEGAN-FNG, 2020) y se dirigen principalmente hacia mercados de bajo valor como Líbano e Irak (ganado vivo) y Rusia, Líbano, Vietnam o Egipto (carne vacuna).
+          .col-lg-5.px-0
+            figure
+              img(src='@/assets/curso/tema2/7.jpg', style="width: 450px")
+        .row(titulo="").justify-content-center.p-lg-5
+          .col-lg-6.bg12.pdr
             h4.p-3.mb-0.bgtitulo1 Reducción de la demanda interna
-            p.p-5.bgcontenido1 FEDEGAN informa que la industria nacional de carne fue capaz de mitigar la reducción de la demanda interna al aumentar sus volúmenes de exportación en un 80% durante el primer trimestre de 2020 (Contexto ganadero, 2020d; DANE-ESAG, 2020a).
+            p.mb-0.p-3.p-lg-5.bgcontenido1.alt FEDEGAN informa que la industria nacional de carne fue capaz de mitigar la reducción de la demanda interna al aumentar sus volúmenes de exportación en un 80% durante el primer trimestre de 2020 (Contexto ganadero, 2020d; DANE-ESAG, 2020a).
           .col-lg-5.px-0
             figure
               img(src='@/assets/curso/tema2/9.jpg', style="width: 450px")
-        .row(titulo="").justify-content-center.align-content-center
-          .col-lg-6.bg12
+        .row(titulo="").justify-content-center.p-lg-5
+          .col-lg-6.bg12.pdr
             h4.p-3.mb-0.bgtitulo1 Implementación de la normatividad
-            p.p-5.bgcontenido1 De lo anterior, se recalca la importancia de las medidas implementadas de las normatividades animales de salud animal y de inocuidad pecuaria.
-          .col-md-6
+            p.mb-0.p-3.p-lg-5.bgcontenido1.alt De lo anterior, se recalca la importancia de las medidas implementadas de las normatividades animales de salud animal y de inocuidad pecuaria.
+          .col-lg-5.px-0
             figure
               img(src='@/assets/curso/tema2/10.jpg', style="width: 450px")
 

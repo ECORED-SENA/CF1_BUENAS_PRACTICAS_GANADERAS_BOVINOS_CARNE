@@ -35,14 +35,14 @@
           p La ganadería de carne como empresa busca un objetivo primordial que es la producción de carne por medio de un manejo que sea sencillo y genere rentabilidad.
         .col-md-8
           figure
-            img(src='@/assets/curso/tema1/img05.png', alt='Texto que describa la imagen')
+            img.ancho_99(src='@/assets/curso/tema1/img05.png', alt='Texto que describa la imagen')
       .row
         .col-md-4.mb-4.mb-md-0
           h4 Base de la producción
           p La producción de carne se basa en el resultado por hectárea (Ha) y esta se determina en producción de kilogramos: carne por hectárea, así mismo, depende de la ganancia media diaria de peso (GMD) y la capacidad de carga animal.
         .col-md-8
           figure
-            img(src='@/assets/curso/tema1/img04.png', alt='Texto que describa la imagen')     
+            img.ancho_99(src='@/assets/curso/tema1/img04.png', alt='Texto que describa la imagen')     
       .row
         .col-md-4.mb-4.mb-md-0
           h4 Rentabilidad
@@ -178,7 +178,7 @@
           .col-lg-auto
             img(src='@/assets/curso/tema1/9.svg', style="width: 80px").m-auto
           .col-lg-2
-            p.text-center.mb-3 #[b ¡importante!]
+            p.text-center.mb-3 #[b ¡Importante!]
           .col-lg-7
             p.mb-0 Cada vez más, se hace imprescindible estar certificados y cumplir con los estándares en todas las líneas de proceso, con el fin de garantizar la calidad e inocuidad del producto final.
           

@@ -1,8 +1,8 @@
-# **sena-base-2021 v5.1.1**
+# **CF1_BUENAS_PRACTICAS_GANADERAS_BOVINOS_CARNE/**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED-BASE-2021](https://ecored-sena.github.io/ECORED-BASE-2021)
+[https://ecored-sena.github.io/CF1_BUENAS_PRACTICAS_GANADERAS_BOVINOS_CARNE/](https://ecored-sena.github.io/CF1_BUENAS_PRACTICAS_GANADERAS_BOVINOS_CARNE/)
 
 #
 

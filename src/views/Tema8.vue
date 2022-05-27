@@ -18,7 +18,7 @@
         .tarjeta.bg--a-1.hoverScale2
           .row
             .col-12.p-4.space1
-              h4 Talas y quemas de bosques
+              h4.mb-0 Talas y quemas de bosques
             .col-12.p-4.space2
               p Genera impactos ambientales negativos como lo son la erosión y la compactación de los suelos.
           img(src='@/assets/curso/tema8/2.png' style='width: 550px')

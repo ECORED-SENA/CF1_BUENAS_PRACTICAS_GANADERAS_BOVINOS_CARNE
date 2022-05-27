@@ -20,36 +20,28 @@
       .col-lg-3.mb-4.mb-lg-0
         img(src='@/assets/curso/tema3/2.png', style="width: 350px").m-auto
       .col-lg-9
-        SlyderF(columnas="col-lg-6 col-xl-6")(data-aos="fade-right")
-          .tarjeta.bg7.p-5.h-100
+        SlyderF(columnas="col-lg-6 col-xl-6")
+          .tarjeta.bg_grad-01.p-5.h-100.justify-content-center
             img(src='@/assets/curso/tema3/img1.svg', style="width: 40px").img-deco1
-            p.mb-4 #[b 1.] Las exigencias del consumo, exportación y globalización han mostrado la necesidad de reconvertir la ganadería en un sistema de producción de alta competitividad, con una visión empresarial a largo plazo y con finalidad de satisfacer la demanda a nivel nacional e internacional.
+            p.px-3.mb-4 #[b 1.] Las exigencias del consumo, exportación y globalización han mostrado la necesidad de reconvertir la ganadería en un sistema de producción de alta competitividad, con una visión empresarial a largo plazo y con finalidad de satisfacer la demanda a nivel nacional e internacional.
           .tarjeta.bg7.p-5.h-100
             img(src='@/assets/curso/tema3/img2.svg', style="width: 40px").img-deco1
             p.mb-4 #[b 2.] El Instituto Colombiano Agropecuario (ICA) es la entidad encargada de la promoción de las buenas prácticas ganaderas (BPG) en el país.
-            br
-            br
-            br.mb-4
-          .tarjeta.bg7.p-5
+          .tarjeta.bg7.p-5.h-100
             img(src='@/assets/curso/tema3/img3.svg', style="width: 40px").img-deco1
             p.mb-0 #[b 3.] En 2007 se creó una legislación oficial con la que productores agrícolas y pecuarios deben cumplir requisitos mínimos que garanticen calidad e inocuidad de alimentos, buscando bienestar humano, animal y vegetal, que redunde en el mejoramiento de los ingresos y la calidad de vida de las personas del campo.
           .tarjeta.bg7.p-5.h-100
             img(src='@/assets/curso/tema3/img4.svg', style="width: 40px").img-deco1
             p #[b 4.] De los 32 departamentos de Colombia, 27 tienen procesos importantes de la producción ganadera; ello indica una amplia parte (territorios, entornos y personas) del país.
-            br
-            br.mb-2
-            br.mb-4
+            
           .tarjeta.bg7.p-5.h-100
             img(src='@/assets/curso/tema3/img5.svg', style="width: 40px").img-deco1
             p #[b 5.] Las buenas prácticas ganaderas (BPG) favorecen la producción y alcance de productos agrícolas seguros y que no afecten la salud de consumidores.
-            br
-            br.mb-2
-            br.mb-4
+            
           .tarjeta.bg7.p-5.h-100
             img(src='@/assets/curso/tema3/img6.svg', style="width: 40px").img-deco1
             p #[b 6.] Las resoluciones vigentes para la implementación de las BPG en una empresa productora de leche es la Resolución 3585 de 2008 y para una empresa de carne es la Resolución 2341 de 2007.
-            br.mb-3
-            br.mb-4
+            
     .separador.mb-5
     #t_3_1
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -83,9 +75,9 @@
           .lista-ol--cuadro__vineta
             span 2
           | Los documentos que hacen parte integral de la presente Resolución ICA en el Artículo 12, como son sus anexos técnicos así:
-        p.mb-0 #[b Anexo I. Lista de chequeo certificación de BPA.]
-        p.mb-0 #[b Anexo II. Criterios de cumplimiento para certificación de predios en BPA.]
-        p.mb-5 #[b Anexo III. Solicitud de auditoría en BPA.]
+        p.ms-5.mb-0 #[b Anexo I. Lista de chequeo certificación de BPA.]
+        p.ms-5.mb-0 #[b Anexo II. Criterios de cumplimiento para certificación de predios en BPA.]
+        p.ms-5.mb-0 #[b Anexo III. Solicitud de auditoría en BPA.]
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .row.justify-content-center.align-items-center.bg10.p-3(data-aos="fade-right")

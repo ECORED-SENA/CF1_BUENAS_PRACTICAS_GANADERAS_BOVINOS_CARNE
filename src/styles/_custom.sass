@@ -178,9 +178,11 @@
   background-size: cover
 
 .img-deco1
-  position: relative
-  left: -15px
-  top: -15px
+  display: flex
+  left: -27px
+  top: -27px
+.slyder-f__main 
+  width: 87%
 
 .lista-ol--cuadro__vineta
   color: #12263F
@@ -210,6 +212,7 @@
   background-color: #FFD63D !important
   line-height: 2.8
   font-size: 18px
+  
 ol.lista-puntero
   list-style-image: url("../assets/curso/tema4/6.svg")
 
@@ -238,7 +241,7 @@ ol.lista-puntero
 
 .space1
   height: 70px
-
+  
 .space2
   height: 240px
 
@@ -256,33 +259,6 @@ ol.lista-puntero
   .space2
     height: 170px
 
-.banner-principal__img
-  background-image: url("../assets/curso/portada/float3.svg"), url("../assets/curso/portada/float2.svg"), url("../assets/curso/portada/float1.svg"), url("../assets/curso/portada/banner-princiapal.png")
-  align-self: stretch
-  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat
-  background-position: 17% 85%, 90% 62%, 22% 40%, 50% 50%
-  background-size: 15%, 15%, 15%, 90%
-  animation: Flitp 6s ease infinite
-  img
-    display: none !important
-
-@media only screen and (max-width: 1199px)
-  .banner-principal .tarjeta
-    background-size: auto
-    background-position: 0
-    background-repeat: no-repeat
-@keyframes Flitp
-  0%
-    background-image: url("../assets/curso/portada/float3.svg"), url("../assets/curso/portada/float2.svg"), url("../assets/curso/portada/float1.svg"), url("../assets/curso/portada/banner-princiapal.png")
-  25%
-    background-image: url("../assets/curso/portada/float3.svg"), url("../assets/curso/portada/float2.svg"), url("../assets/curso/portada/float1.svg"), url("../assets/curso/portada/banner-princiapal.png")
-  50%
-    background-image: url("../assets/curso/portada/float3.svg"), url("../assets/curso/portada/float2.svg"), url("../assets/curso/portada/float1.svg"), url("../assets/curso/portada/banner-princiapal.png")
-    background-position: 30% 85%, 90% 40%, 22% 20%, 20% 50%
-  75%
-    background-image: url("../assets/curso/portada/float3.svg"), url("../assets/curso/portada/float2.svg"), url("../assets/curso/portada/float1.svg"), url("../assets/curso/portada/banner-princiapal.png")
-  100%
-    background-image: url("../assets/curso/portada/float3.svg"), url("../assets/curso/portada/float2.svg"), url("../assets/curso/portada/float1.svg"), url("../assets/curso/portada/banner-princiapal.png")
 .t
   font-size: 18px
 .t2
@@ -295,3 +271,34 @@ ol.lista-puntero
 .linea-tiempo-d__item.row.linea-tiempo-d__item--selected
   .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
     background-color:#BBDEAF
+
+.ancho_99
+  width: 99% !important
+.pdr
+  padding-right: 0 
+  @media screen and (max-width: 420px)
+    padding-right: calc(var(--bs-gutter-x)/ 2);
+    
+.alt
+  height: 230px
+.horizontal-scroll
+  align-items: stretch !important
+.bg_grad-01
+  position: relative
+  img, p 
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-color: #ECEBE8
+    background-repeat: no-repeat
+    background-size: contain
+    @media screen and ( max-width: 420px )
+      width: 54%
+      height: 21%
+      left: 0
