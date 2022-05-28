@@ -157,11 +157,11 @@
     figure.my-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    .row(style="margin-inline: -3.2rem !important")
-      .col-12.p-5.p-lg-3
-        .row
-          .col-5.col-lg-4.bg4.p-3
-            h3.mt-2 Funciones
+    
+      
+    .row
+      .col-5.col-lg-4.bg4.p-3.mtop_8
+        h3.mt-2 Funciones
     .row.justify-content-center
       .col-lg-10.px-0
         .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mt-5

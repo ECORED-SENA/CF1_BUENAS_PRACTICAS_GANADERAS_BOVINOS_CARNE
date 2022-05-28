@@ -19,7 +19,7 @@
                   p.mb-0 #[b Riesgos generales]
                   p.mb-0 #[b en el sector]
                   p.mb-0 #[b ganadero.]
-                td(style="background-color: #FFFFFF")
+                td(style="background-color: #FFFFFF").ps-5
                   p.mb-0 Resolución 000550 del 28 de febrero de 2006.
                   p.mb-0 Control de la brucelosis en Colombia.
                   p.mb-0 Resolución 072 de 2007.
@@ -35,42 +35,42 @@
               tr
                 td(style="background-color: #DDEFD7")
                   p.mb-0 #[b Decreto 1500 de 2007]
-                td(colspan="2", style="background-color: #FFFFFF")
+                td(colspan="2", style="background-color: #FFFFFF").ps-5
                   p.mb-0 Por la cual se establece el reglamento técnico, a través del cual se crea el Sistema oficial de inspección, vigilancia y control de carne, productos cárnicos comestibles y derivados cárnicos destinados para el consumo humano.
               tr
                 td(style="background-color: #DDEFD7")
                   p.mb-0 #[b Resolución 072 de 2007]
-                td(colspan="2", style="background-color: #FFFFFF")
+                td(colspan="2", style="background-color: #FFFFFF").ps-5
                   p.mb-0 Por la cual se establece el manual de buenas prácticas de manejo para la producción y obtención de piel de ganado bovino y bufalino.
               tr
                 td(style="background-color: #DDEFD7")
                   p.mb-0 #[b Resolución 2905 de 2007]
-                td(colspan="2", style="background-color: #FFFFFF")
+                td(colspan="2", style="background-color: #FFFFFF").ps-5
                   p.mb-0 Por la cual se establece el reglamento técnico sobre los requisitos sanitarios y de inocuidad de la carne y productos cárnicos comestibles de las especies bovinas y bufalinas destinados para el consumo humano.
               tr
                 td(style="background-color: #DDEFD7")
                   p.mb-0 #[b Resolución 18119 de 2007]
-                td(colspan="2", style="background-color: #FFFFFF")
+                td(colspan="2", style="background-color: #FFFFFF").ps-5
                   p.mb-0 Por la cual se reglamentan los requisitos del Plan gradual de cumplimiento para las plantas de beneficio y desposte de bovinos y bufalinos.
               tr
                 td(style="background-color: #DDEFD7")
                   p.mb-0 #[b Decreto 2278 de 1982]
-                td(colspan="2", style="background-color: #FFFFFF")
+                td(colspan="2", style="background-color: #FFFFFF").ps-5
                   p.mb-0 Por la cual se reglamenta parcialmente el título V de la Ley 09 de 1979 en cuanto al sacrificio de animales de abasto público o para consumo humano y el procesamiento, transporte y comercialización de su carne.
               tr
                 td(style="background-color: #DDEFD7")
                   p.mb-0 #[b Decreto 0616 de 2006]
-                td(colspan="2", style="background-color: #FFFFFF")
+                td(colspan="2", style="background-color: #FFFFFF").ps-5
                   p.mb-0 Por el cual se expide el reglamento técnico sobre los requisitos que debe cumplir la leche para el consumo humano, que se obtenga, procese, envase, transporte, comercialice, expenda, importe o exporte en el país.
               tr
                 td(style="background-color: #DDEFD7")
                   p.mb-0 #[b Decreto 02838 de 2006]
-                td(colspan="2", style="background-color: #FFFFFF")
+                td(colspan="2", style="background-color: #FFFFFF").ps-5
                   p.mb-0 Por el cual se modifica parcialmente el Decreto 616 de 2006 y se dictan otras disposiciones.
               tr
                 td(style="background-color: #DDEFD7")
                   p.mb-0 #[b Decreto 2964 de 2008]
-                td(colspan="2", style="background-color: #FFFFFF")
+                td(colspan="2", style="background-color: #FFFFFF").ps-5
                   p.mb-0 Por el cual se modifica parcialmente el Decreto 2838 de 2006 y se dictan otras disposiciones.
     p.mb-5 En lo relativo a la indumentaria necesaria en ganadería de carne, los implementos acordes a la normativa de SST del Manejo integrado de plagas (MIP) buscan proteger la salud del trabajador, para ello se debe de tener en cuenta el uso adecuado y la calidad de los siguientes elementos:
     .row.mb-5.justify-content-center(data-aos="fade-right")
@@ -111,7 +111,7 @@
             p.text-center.mb-0 Delantal o bata industrial
     .row(data-aos="zoom-in").justify-content-center
       .col-md-8
-        TabsC.color-acento-contenido
+        TabsC.color-acento-contenido.modif
           .py-5.py-md-10.bgr_3.p-4(titulo="01. ¡Importante!")
             p Estos implementos son de carácter obligatorio para el manejo de productos cárnicos, además de tener recomendaciones como productos desinfectantes y utensilios para la limpieza, de tipo industrial.
           .py-5.py-md-10.bgr_3.p-4(titulo="02. ¡Recuerde!")

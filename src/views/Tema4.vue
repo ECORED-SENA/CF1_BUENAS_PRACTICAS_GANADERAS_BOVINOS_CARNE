@@ -47,11 +47,11 @@
           p.m-0 Es imperante la necesidad de adelantar la guía, seguir los protocolos descritos del Artículo 5 hasta el Artículo 10 (de la Resolución 068167 de 2020), de los cuales dependen de que el ICA otorgue o niegue dicha certificación.
     .row(data-aos="zoom-in-up").justify-content-center.mb-5
       .col-md-8
-        TabsC.color-acento-contenido(data-aos="fade-right")
-          .py-5.py-md-10.bgr_3.p-5(titulo=" 01. ¡Importante!")
-            p Las Buenas Prácticas Ganaderas, como estrategia de calidad en la producción primaria, deben contar con lineamientos que permiten la certificación de la finca o empresa que lo requiera.
-          .py-5.py-md-10.bgr_3.p-5(titulo="02. ¡Recuerde!")
-            p El instituto colombiano agropecuario (ICA), es la entidad certificadora en BPG; para ello hay establecido un procedimiento y unos requisitos que serán solicitados a aquellos predios que se dedican a la producción de carne bovina y que se destinan al sacrificio y el consumo humano.
+        TabsC.color-acento-contenido(data-aos="fade-right").modif
+          .py-5.py-md-10.p-5(titulo=" 01. ¡Importante!")
+            p.mb-0.p-4 Las Buenas Prácticas Ganaderas, como estrategia de calidad en la producción primaria, deben contar con lineamientos que permiten la certificación de la finca o empresa que lo requiera.
+          .py-5.py-md-10.p-5(titulo="02. ¡Recuerde!")
+            p.mb-0.p-4 El instituto colombiano agropecuario (ICA), es la entidad certificadora en BPG; para ello hay establecido un procedimiento y unos requisitos que serán solicitados a aquellos predios que se dedican a la producción de carne bovina y que se destinan al sacrificio y el consumo humano.
     .row.align-items-center.mb-4.mb-lg-0
       .col-md-6.p-2(data-aos="fade-right")
         p Las BPG requieren de un procedimiento que según la entidad certificadora se establece de la siguiente manera: 

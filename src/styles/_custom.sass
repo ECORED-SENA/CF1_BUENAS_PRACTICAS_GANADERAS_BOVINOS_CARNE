@@ -141,10 +141,6 @@
 .tabs-b__tab
   background-color: #F5EAD9
 
-.tabs-c__tab
-  padding: 5px
-  border: 2px solid #FFD63D
-  border-radius: 5px
 
 //----------------------------------------
 
@@ -207,11 +203,6 @@
     background-color: #F0F8ED!important
     border-radius: 10px
 
-.tabs-c.color-acento-contenido .tabs-c__tab--active
-  border-bottom-color: #FFD63D !important
-  background-color: #FFD63D !important
-  line-height: 2.8
-  font-size: 18px
   
 ol.lista-puntero
   list-style-image: url("../assets/curso/tema4/6.svg")
@@ -221,6 +212,8 @@ ol.lista-puntero
   &:hover
     transform: scale(1.1)
     transform: translateY(-10px)
+    
+    
 .hoverScale2
   transition: all .3s ease-in-out
   &:hover
@@ -291,14 +284,76 @@ ol.lista-puntero
     content: ''
     position: absolute
     margin: 0
-    top: 0
-    left: 0
-    width: 100%
-    height: 100%
+    top: 40px
+    left: 40px
+    width: 85%
+    height: 81%
     background-color: #ECEBE8
     background-repeat: no-repeat
     background-size: contain
     @media screen and ( max-width: 420px )
-      width: 54%
-      height: 21%
-      left: 0
+      top: 40px
+      left: 40px
+      width: 80%
+      height: 100%
+.mtop
+  margin-top: -24px
+  &_1
+    margin-top: 107px
+    @media screen and (max-width: 420px)
+      margin-top: 20px
+  &_2
+    margin-bottom: 80px
+    @media screen and (max-width: 420px)
+      margin-bottom: 5px
+  &_3
+    margin-top: 55px
+    @media screen and (max-width: 420px)
+      margin-top: 20px
+  &_4
+    margin-bottom: 47px
+    @media screen and (max-width: 420px)
+      margin-bottom: 5px
+  &_5
+    margin-top: 43px
+    @media screen and (max-width: 420px)
+      margin-top: 20px
+  &_6
+    margin-bottom: 35px
+    @media screen and (max-width: 420px)
+      margin-bottom: 5px
+  &_7
+    margin-top: 91px
+    @media screen and (max-width: 420px)
+      margin-top: 5px
+  &_8
+    margin-left: -36px
+    @media screen and (max-width: 420px)
+      margin-left: 0
+      
+.modif
+  border-bottom: none
+  .tabs-c__content-item
+    background-color: #F0F8ED
+    border-radius: 20PX
+  .tabs-c__tab--active
+    background-color: #FFD63D
+    border-radius: 10PX
+    padding-top: 2rem !important
+    padding-bottom: 2rem !important
+  .tabs-c__tab
+    border: 4px solid #FFD63D
+    border-radius: 10px
+    margin-right: 2px
+    margin-left: 2px
+  span
+    font-weight: 700
+.align-items-center
+  display: flex;
+  align-items: flex-center;
+  flex-direction: row;
+.align-items-end
+  display: flex
+  align-items: flex-end
+  flex-direction: row
+    

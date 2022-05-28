@@ -14,28 +14,28 @@
       .col-lg-4
         img(src='@/assets/curso/tema8/1.png', style="width: 350px").m-auto
     .row.justify-content-center
-      .col-9.col-lg-3.mb-4.mb-lg-0
-        .tarjeta.bg--a-1.hoverScale2
+      .col-12.col-lg-3.mb-4.mb-lg-0
+        .bg--a-1.hoverScale2
           .row
-            .col-12.p-4.space1
+            .col-12.px-4.mtop_1
               h4.mb-0 Talas y quemas de bosques
-            .col-12.p-4.space2
+            .col-12.px-4.mtop_2
               p Genera impactos ambientales negativos como lo son la erosión y la compactación de los suelos.
           img(src='@/assets/curso/tema8/2.png' style='width: 550px')
-      .col-9.col-lg-3.mb-4.mb-lg-0
-        .tarjeta.bg--a-1.hoverScale2
+      .col-12.col-lg-3.mb-4.mb-lg-0
+        .bg--a-1.hoverScale2
           .row
-            .col-12.p-4.space1
-              h4 Quemas estacionales
-            .col-12.p-4.space2
+            .col-12.px-4.mtop_3
+              h4.mb-0 Quemas estacionales
+            .col-12.px-4.mtop_4
               p Las quemas estacionales y la eliminación de la sucesión vegetal, si bien la ganadería está en constante cambio y evolución, como toda actividad económica puede ‘producir conservando’. 
           img(src='@/assets/curso/tema8/3.png' style='width: 550px')
-      .col-9.col-lg-3.mb-4.mb-lg-0
-        .tarjeta.bg--a-1.hoverScale2
+      .col-12.col-lg-3.mb-4.mb-lg-0
+        .bg--a-1.hoverScale2
           .row
-            .col-12.p-4.space1
-              h4 Producir conservando
-            .col-12.p-4.space2
+            .col-12.px-4.mtop_5
+              h4.mb-0 Producir conservando
+            .col-12.px-4.mtop_6
               p Producción con una menor afectación al medio ambiente y la diversidad de fauna y flora que existe alrededor del mundo. Para lo cual existen procesos que el productor puede realizar para mitigar los efectos del cambio climático.
           img(src='@/assets/curso/tema8/4.png' style='width: 550px')
 </template>
