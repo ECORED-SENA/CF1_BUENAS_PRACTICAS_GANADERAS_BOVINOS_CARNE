@@ -15,7 +15,7 @@
           table
             thead
               tr
-                td(style="background-color: #DDEFD7")
+                td(style="background-color: #DDEFD7").ps-5
                   p.mb-0 #[b Riesgos generales]
                   p.mb-0 #[b en el sector]
                   p.mb-0 #[b ganadero.]
@@ -26,49 +26,49 @@
                   p.mb-0 Resolución 2905 de 2007.
                   p.mb-0 Decreto 1500 de 2007.
                   p.mb-0 Decreto 2278 de 1982.
-                td(style="background-color: #FFFFFF")
+                td(style="background-color: #FFFFFF").ps-5
                   p.mb-0 #[b En relación con la seguridad y la salud en el trabajo.]
             tbody
               tr
-                td(colspan="3", style="background-color: #FFF3C6")
+                td(colspan="3", style="background-color: #FFF3C6").ps-4
                   p.mb-0.p-4 #[b FEDEGAN junto con entidades como el ICA se han encargado de enfocar acciones de apoyo sanitario que deben cumplir las plantas de beneficio y los carniceros, con el fin de cumplir las exigencias tanto nacionales como internacionales para los consumidores de productos cárnicos.]
               tr
-                td(style="background-color: #DDEFD7")
+                td(style="background-color: #DDEFD7").ps-5
                   p.mb-0 #[b Decreto 1500 de 2007]
                 td(colspan="2", style="background-color: #FFFFFF").ps-5
                   p.mb-0 Por la cual se establece el reglamento técnico, a través del cual se crea el Sistema oficial de inspección, vigilancia y control de carne, productos cárnicos comestibles y derivados cárnicos destinados para el consumo humano.
               tr
-                td(style="background-color: #DDEFD7")
+                td(style="background-color: #DDEFD7").ps-5
                   p.mb-0 #[b Resolución 072 de 2007]
                 td(colspan="2", style="background-color: #FFFFFF").ps-5
                   p.mb-0 Por la cual se establece el manual de buenas prácticas de manejo para la producción y obtención de piel de ganado bovino y bufalino.
               tr
-                td(style="background-color: #DDEFD7")
+                td(style="background-color: #DDEFD7").ps-5
                   p.mb-0 #[b Resolución 2905 de 2007]
                 td(colspan="2", style="background-color: #FFFFFF").ps-5
                   p.mb-0 Por la cual se establece el reglamento técnico sobre los requisitos sanitarios y de inocuidad de la carne y productos cárnicos comestibles de las especies bovinas y bufalinas destinados para el consumo humano.
               tr
-                td(style="background-color: #DDEFD7")
+                td(style="background-color: #DDEFD7").ps-5
                   p.mb-0 #[b Resolución 18119 de 2007]
                 td(colspan="2", style="background-color: #FFFFFF").ps-5
                   p.mb-0 Por la cual se reglamentan los requisitos del Plan gradual de cumplimiento para las plantas de beneficio y desposte de bovinos y bufalinos.
               tr
-                td(style="background-color: #DDEFD7")
+                td(style="background-color: #DDEFD7").ps-5
                   p.mb-0 #[b Decreto 2278 de 1982]
                 td(colspan="2", style="background-color: #FFFFFF").ps-5
                   p.mb-0 Por la cual se reglamenta parcialmente el título V de la Ley 09 de 1979 en cuanto al sacrificio de animales de abasto público o para consumo humano y el procesamiento, transporte y comercialización de su carne.
               tr
-                td(style="background-color: #DDEFD7")
+                td(style="background-color: #DDEFD7").ps-5
                   p.mb-0 #[b Decreto 0616 de 2006]
                 td(colspan="2", style="background-color: #FFFFFF").ps-5
                   p.mb-0 Por el cual se expide el reglamento técnico sobre los requisitos que debe cumplir la leche para el consumo humano, que se obtenga, procese, envase, transporte, comercialice, expenda, importe o exporte en el país.
               tr
-                td(style="background-color: #DDEFD7")
+                td(style="background-color: #DDEFD7").ps-5
                   p.mb-0 #[b Decreto 02838 de 2006]
                 td(colspan="2", style="background-color: #FFFFFF").ps-5
                   p.mb-0 Por el cual se modifica parcialmente el Decreto 616 de 2006 y se dictan otras disposiciones.
               tr
-                td(style="background-color: #DDEFD7")
+                td(style="background-color: #DDEFD7").ps-5
                   p.mb-0 #[b Decreto 2964 de 2008]
                 td(colspan="2", style="background-color: #FFFFFF").ps-5
                   p.mb-0 Por el cual se modifica parcialmente el Decreto 2838 de 2006 y se dictan otras disposiciones.

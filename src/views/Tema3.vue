@@ -22,22 +22,22 @@
       .col-lg-9
         SlyderF(columnas="col-lg-6 col-xl-6")
           .tarjeta.bg_grad-01.p-5.h-100.justify-content-center
-            img(src='@/assets/curso/tema3/img1.svg', style="width: 40px").img-deco1
+            img(src='@/assets/curso/tema3/img1.svg', style="width: 59px").img-deco1
             p.px-3.mb-0.mtop #[b 1.] Las exigencias del consumo, exportación y globalización han mostrado la necesidad de reconvertir la ganadería en un sistema de producción de alta competitividad, con una visión empresarial a largo plazo y con finalidad de satisfacer la demanda a nivel nacional e internacional.
           .tarjeta.bg_grad-01.p-5.h-100
-            img(src='@/assets/curso/tema3/img2.svg', style="width: 40px").img-deco1
+            img(src='@/assets/curso/tema3/img2.svg', style="width: 59px").img-deco1
             p.px-3.mb-0.mtop #[b 2.] El Instituto Colombiano Agropecuario (ICA) es la entidad encargada de la promoción de las buenas prácticas ganaderas (BPG) en el país.
           .tarjeta.bg_grad-01.p-5.h-100
-            img(src='@/assets/curso/tema3/img3.svg', style="width: 40px").img-deco1
+            img(src='@/assets/curso/tema3/img3.svg', style="width: 59px").img-deco1
             p.px-3.mb-0.mtop #[b 3.] En 2007 se creó una legislación oficial con la que productores agrícolas y pecuarios deben cumplir requisitos mínimos que garanticen calidad e inocuidad de alimentos, buscando bienestar humano, animal y vegetal, que redunde en el mejoramiento de los ingresos y la calidad de vida de las personas del campo.
           .tarjeta.bg_grad-01.p-5.h-100
-            img(src='@/assets/curso/tema3/img4.svg', style="width: 40px").img-deco1
+            img(src='@/assets/curso/tema3/img4.svg', style="width: 59px").img-deco1
             p.px-3.mb-0.mtop #[b 4.] De los 32 departamentos de Colombia, 27 tienen procesos importantes de la producción ganadera; ello indica una amplia parte (territorios, entornos y personas) del país.
           .tarjeta.bg_grad-01.p-5.h-100
-            img(src='@/assets/curso/tema3/img5.svg', style="width: 40px").img-deco1
+            img(src='@/assets/curso/tema3/img5.svg', style="width: 59px").img-deco1
             p.px-3.mb-0.mtop #[b 5.] Las buenas prácticas ganaderas (BPG) favorecen la producción y alcance de productos agrícolas seguros y que no afecten la salud de consumidores.
           .tarjeta.bg_grad-01.p-5.h-100
-            img(src='@/assets/curso/tema3/img6.svg', style="width: 40px").img-deco1
+            img(src='@/assets/curso/tema3/img6.svg', style="width: 59px").img-deco1
             p.px-3.mb-0.mtop #[b 6.] Las resoluciones vigentes para la implementación de las BPG en una empresa productora de leche es la Resolución 3585 de 2008 y para una empresa de carne es la Resolución 2341 de 2007.
             
     .separador.mb-5
@@ -69,13 +69,16 @@
           .lista-ol--cuadro__vineta
             span 1
           | Solicitud y requisitos de certificación en buenas prácticas agrícolas BPA, la cual se debe realizar mediante solicitud escrita - forma 3-189 a la gerencia seccional correspondiente a la jurisdicción del predio o a través de la Ventanilla única de trámites del ICA con los documentos exigidos.
-        li 
+        li
           .lista-ol--cuadro__vineta
             span 2
-          | Los documentos que hacen parte integral de la presente Resolución ICA en el Artículo 12, como son sus anexos técnicos así:
-        p.ms-5.mb-0 #[b Anexo I. Lista de chequeo certificación de BPA.]
-        p.ms-5.mb-0 #[b Anexo II. Criterios de cumplimiento para certificación de predios en BPA.]
-        p.ms-5.mb-0 #[b Anexo III. Solicitud de auditoría en BPA.]
+          span Los documentos que hacen parte integral de la presente Resolución ICA en el Artículo 12, como son sus anexos técnicos así:
+            br
+            | #[b Anexo I. Lista de chequeo certificación de BPA.]
+            br
+            | #[b Anexo II. Criterios de cumplimiento para certificación de predios en BPA.]
+            br
+            | #[b Anexo III. Solicitud de auditoría en BPA.]
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .row.justify-content-center.align-items-center.bg10.p-3(data-aos="fade-right")

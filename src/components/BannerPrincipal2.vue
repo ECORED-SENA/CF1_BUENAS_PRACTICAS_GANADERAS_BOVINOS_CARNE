@@ -44,6 +44,8 @@ export default {
   top: 3%
   right: -3%
   z-index: 100
+  @media (max-width: 1399px)
+    right: 2%
 .fondo-contenido
   position: absolute
   padding: 0px
