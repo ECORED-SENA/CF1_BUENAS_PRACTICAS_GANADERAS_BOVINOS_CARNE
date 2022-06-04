@@ -75,37 +75,37 @@
     p.mb-5 En lo relativo a la indumentaria necesaria en ganadería de carne, los implementos acordes a la normativa de SST del Manejo integrado de plagas (MIP) buscan proteger la salud del trabajador, para ello se debe de tener en cuenta el uso adecuado y la calidad de los siguientes elementos:
     .row.mb-5.justify-content-center(data-aos="fade-right")
       .col-4.col-lg-2.col-xl-1.mb-4.mb-lg-0
-        img(src='@/assets/curso/tema7/1.svg', style='width: 270px').mb-3.m-auto.hoverScale
+        img(src='@/assets/curso/tema7/1.svg', style='width: 270px').mb-3.m-auto.hoverScale.ico-tema7
         .row
           .col-12
             p.text-center.mb-0 Botas de caucho
       .col-4.col-lg-2.col-xl-1.mb-4.mb-lg-0
-        img(src='@/assets/curso/tema7/2.svg', style='width: 270px').mb-3.m-auto.hoverScale
+        img(src='@/assets/curso/tema7/2.svg', style='width: 270px').mb-3.m-auto.hoverScale.ico-tema7
         .row
           .col-12
             p.text-center.mb-0 Overol antifluido
       .col-4.col-lg-2.col-xl-1.mb-4.mb-lg-0
-        img(src='@/assets/curso/tema7/3.svg', style='width: 270px').mb-3.m-auto.hoverScale
+        img(src='@/assets/curso/tema7/3.svg', style='width: 270px').mb-3.m-auto.hoverScale.ico-tema7
         .row
           .col-12
             p.text-center.mb-0 Guantes
       .col-4.col-lg-2.col-xl-1.mb-4.mb-lg-0
-        img(src='@/assets/curso/tema7/4.svg', style='width: 270px').mb-3.m-auto.hoverScale
+        img(src='@/assets/curso/tema7/4.svg', style='width: 270px').mb-3.m-auto.hoverScale.ico-tema7
         .row
           .col-12
             p.text-center.mb-0 Gorro
       .col-4.col-lg-2.col-xl-1.mb-4.mb-lg-0
-        img(src='@/assets/curso/tema7/5.svg', style='width: 270px').mb-3.m-auto.hoverScale
+        img(src='@/assets/curso/tema7/5.svg', style='width: 270px').mb-3.m-auto.hoverScale.ico-tema7
         .row
           .col-12
             p.text-center.mb-0 Tapabocas
       .col-4.col-lg-2.col-xl-1.mb-4.mb-lg-0
-        img(src='@/assets/curso/tema7/6.svg', style='width: 270px').mb-3.m-auto.hoverScale
+        img(src='@/assets/curso/tema7/6.svg', style='width: 270px').mb-3.m-auto.hoverScale.ico-tema7
         .row
           .col-12
             p.text-center.mb-0 Gafas
       .col-4.col-lg-2.col-xl-1
-        img(src='@/assets/curso/tema7/7.svg', style='width: 270px').mb-3.m-auto.hoverScale
+        img(src='@/assets/curso/tema7/7.svg', style='width: 270px').mb-3.m-auto.hoverScale.ico-tema7
         .row
           .col-12
             p.text-center.mb-0 Delantal o bata industrial

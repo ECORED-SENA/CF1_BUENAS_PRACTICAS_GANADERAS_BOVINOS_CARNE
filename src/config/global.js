@@ -261,32 +261,37 @@ export default {
   ],
   complementario: [
     {
-      texto:
+      tema: 'BPG en producción de bovinos de carne',
+      referencia:
         'Producción agropecuaria y agroindustrial. (2021). Buenas prácticas ganaderas, ICA 2020.”',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=F1SXng6fIr4',
     },
     {
-      texto:
+      tema: 'Diagnóstico de aplicación BPG en el predio',
+      referencia:
         'Asocebu Col. (2020). Hablemos de Cebú - importancia en la prevención de las enfermedades de control oficial en Colombia ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=9jPXUuk2WNI',
     },
     {
-      texto:
+      tema: 'Diagnóstico de aplicación BPG en el predio',
+      referencia:
         'Zootecnia y veterinaria es mi pasión. (2022). Zootecnia, veterinaria y producción animal. Zoovetesmipasion',
       tipo: 'Linografía',
       link:
         'https://zoovetesmipasion.com/ganaderia/buenas-practicas-ganaderas-2/',
     },
     {
-      texto:
+      tema: 'BPG en producción de bovinos de carne',
+      referencia:
         'Sanjuan, Y. (2021). Trazabilidad de la cadena cárnica bovina en Colombia',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=v6bCdQvaCyk',
     },
     {
-      texto:
+      tema: 'Gestión ambiental en bovinos de carne',
+      referencia:
         'La Finca de Hoy. (2020). Así debe ser un correcto plan sanitario para el bienestar de sus bovinos - La Finca de Hoy',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=uVxB71GZBpw',

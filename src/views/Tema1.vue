@@ -42,7 +42,7 @@
           p La producción de carne se basa en el resultado por hectárea (Ha) y esta se determina en producción de kilogramos: carne por hectárea, así mismo, depende de la ganancia media diaria de peso (GMD) y la capacidad de carga animal.
         .col-md-8
           figure
-            img.ancho_99(src='@/assets/curso/tema1/img04.png', alt='Texto que describa la imagen')     
+            img.ancho_99(src='@/assets/curso/tema1/img04.png', alt='Texto que describa la imagen')
       .row
         .col-md-4.mb-4.mb-md-0
           h4 Rentabilidad
@@ -56,7 +56,7 @@
           .row.align-items-center
             .col-auto
               figure
-                img(src='@/assets/curso/tema1/img07.svg', style="width: 80px") 
+                img(src='@/assets/curso/tema1/img07.svg', style="width: 80px")
             .col
               p Para determinar la rentabilidad por hectárea de pasto por año se puede aplicar la siguiente fórmula:   
               p.bg1.p-2 #[b COP/HA DE PASTO AÑO= Carga animal (UGG*/ha) X GMD (kg/UGG/día) X 365 días X MSV (%) X Valor del kg.]

@@ -14,7 +14,7 @@
             .cajon.color-acento-contenido.p-4.mb-4
               p Las BPG se refieren a todas las acciones involucradas en el eslabón primario de la ganadería bovina, encaminadas al aseguramiento de la inocuidad de los alimentos de carne y leche, la protección del medio ambiente y de las personas que trabajan en la explotación.
       .col-lg-5
-        img(src='@/assets/curso/tema3/1.png', style="width: 450px") 
+        img(src='@/assets/curso/tema3/1.png', style="width: 450px")
     p.my-5 Detalle los siguientes aspectos que sobre las buenas prácticas ganaderas se exponen a continuación: 
     .row.align-items-center.mb-5
       .col-lg-3.mb-4.mb-lg-0
@@ -83,7 +83,7 @@
       .col-lg-10
         .row.justify-content-center.align-items-center.bg10.p-3(data-aos="fade-right")
           .col-auto
-            img(src='@/assets/curso/tema3/3.svg', style="width: 90px") 
+            img(src='@/assets/curso/tema3/3.svg', style="width: 90px")
           .col-md-8
             p #[b Resolución 30021 de 2017]
             p.mb-2 Amplíe su conocimiento sobre criterios de cumplimiento y listas de chequeo en la aplicación de buenas prácticas ganaderas, consultando la Resolución 30021 de 2017, en el enlace que encuentra a continuación:
