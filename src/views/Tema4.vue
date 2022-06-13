@@ -84,19 +84,22 @@
         ol.lista-puntero.ms-4
           li
             .lista-puntero
-            | Control de plagas.
+            | El plan de saneamiento que consiste en realizar al menos un examen médico al año.
           li
             .lista-puntero
-            | Manejo sanitario.
+            | Las buenas prácticas en el uso de los medicamentos veterinarios.
           li
             .lista-puntero
-            | Alimentación y agua.
+            | La sanidad animal y bioseguridad.
           li
             .lista-puntero
-            | Transporte animal.
+            | Las buenas prácticas de alimentación.
           li
             .lista-puntero
-            | Trazabilidad.
+            | El transporte adecuado. 
+          li
+            .lista-puntero
+            | La inscripción del predio.
       .col-md-5(data-aos="fade-left")
         img(src='@/assets/curso/tema4/7.png', style="width: 350px").m-auto
     p.mb-5 Conozca, a continuación, algunos conceptos adicionales relativos a los procesos de certificación BPG, de los cuales se debe tener claridad, esto favorecerá la toma de decisiones y la aplicación de acciones más acertadas para el proceso:
@@ -107,13 +110,13 @@
             figure
               img(src='@/assets/curso/tema4/9.svg', style="width: 80px").m-auto
           .col-md-10.mb-4.mb-md-0.mt-3
-            p.mb-5 El concepto técnico será “certificable” cuando el predio cumpla con el 100% de los criterios fundamentales, mínimo el 80% de los criterios mayores y mínimo 60% de los criterios menores; <strong>ante lo cual se expedirá el Certificado de BPG, en la producción primaria de carne para consumo humano</strong>.      
+            p.mb-5 El concepto técnico será #[b “certificable”] cuando el predio cumpla con el 100% de los criterios fundamentales, mínimo el 80% de los criterios mayores y mínimo 60% de los criterios menores; <strong>ante lo cual se expedirá el Certificado de BPG, en la producción primaria de carne para consumo humano</strong>.      
         .row.justify-content-center.align-items-center(titulo="Aplazable")
           .col-md-2.mb-4.mb-md-0.ps-5
             figure
               img(src='@/assets/curso/tema4/10.svg', style="width: 80px").m-auto
           .col-md-10.mb-4.mb-md-0.mt-3
-            p.mb-5 El concepto será “aplazado”, cuando el predio cumpla con menos del 100% de los criterios fundamentales, y/o menos del 80% de los criterios mayores, y/o menos del 60% de los criterios menores.
+            p.mb-5 El concepto será #[b “aplazado”,] cuando el predio cumpla con menos del 100% de los criterios fundamentales, y/o menos del 80% de los criterios mayores, y/o menos del 60% de los criterios menores.
         .row.justify-content-center.align-items-center(titulo="No conformidades ")
           .col-md-2.mb-4.mb-md-0.ps-5
             figure

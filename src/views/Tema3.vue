@@ -48,7 +48,7 @@
     p En el siguiente recurso entérese de los temas y apartes que se tratan en la aplicación de las buenas prácticas de ganadería:    
     figure.mb-5.mt-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/QCcIP7JTo-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .row.justify-content-center.mb-5
       .col-lg-10
         .row.justify-content-center.align-items-center.bg5.p-2(data-aos="fade-right")
@@ -62,7 +62,8 @@
     #t_3_2
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2  3.2 Criterios de cumplimiento y listas de chequeo
-    p.mb-5 #[b Cada empresa del sector ganadero debe contar con un plan y registro de actividades, acordes al cumplimento de las diferentes normas y resoluciones, además de mantener a su personal apto y competitivo.] Entre los criterios de cumplimiento y listas de chequeo más importantes, se mencionan los siguientes:        
+    p.mb-5 Cada empresa del sector ganadero debe contar con un plan y registro de actividades, acordes al cumplimento de las diferentes normas y resoluciones, además de mantener a su personal apto y competitivo.
+    p Entre los criterios de cumplimiento y listas de chequeo más importantes, se mencionan los siguientes:        
     .col-12.mb-5
       ol.lista-ol--cuadro.lista-ol--separador
         li 

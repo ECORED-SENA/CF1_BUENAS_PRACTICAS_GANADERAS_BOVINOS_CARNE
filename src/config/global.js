@@ -211,6 +211,12 @@ export default {
     },
     {
       referencia:
+        'Instituto Colombiano Agropecuario. (s.f.). Reglamento sobre las condiciones sanitarias y de inocuidad en la producción de ganado bovino y porcino.',
+      link:
+        'https://www.ica.gov.co/getdoc/016f3c96-a458-4fa6-ae96-41d18b2221f5/requisitos-sanitarios-y-de-inocuidad-en-la-producc.aspx',
+    },
+    {
+      referencia:
         'Metro Ecuador. (2019). La "ganadería climáticamente inteligente" se consolida en Ecuador. Contexto ganadero.',
       link:
         'https://www.contextoganadero.com/reportaje/la-ganaderia-climaticamente-inteligente-se-consolida-en-ecuador',
@@ -224,13 +230,13 @@ export default {
     {
       referencia:
         'Rangel, V. (2020). Gestión ambiental en el sector ganadero doble propósito de los pequeños productores en Maicao, Colombia. Revista Espacios',
-      link: '. https://www.revistaespacios.com/a20v41n27/a20v41n27p03.pdf',
+      link: 'https://www.revistaespacios.com/a20v41n27/a20v41n27p03.pdf',
     },
     {
       referencia:
         'Resolución 068167 de 2020. [Instituto Colombiano Agropecuario]. Por medio de la cual se establecen los requisitos para obtener la certificación en Buenas Prácticas Ganaderas BPG en la producción de carne de bovinos y/o bufalinos. Mayo 20 de 2020.',
       link:
-        '. https://www.ica.gov.co/getattachment/db5b53ff-0752-4884-90b8-a7ce15ce1ead/2020R68167.aspx ',
+        'https://www.ica.gov.co/getattachment/db5b53ff-0752-4884-90b8-a7ce15ce1ead/2020R68167.aspx',
     },
   ],
   glosario: [
@@ -312,6 +318,27 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'James Dubán Lozano Cuellar',
+        cargo: 'Experto temático',
+        centro: 'Centro Agropecuario la Granja Regional Tolima',
+      },
+      {
+        nombre: 'Fabián Leonardo Correa Díaz',
+        cargo: 'Asesor metodológico y pedagógico',
+        centro:
+          'Centro de la Industria, la Empresa y los Servicios Regional Norte de Santander',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Asesora metodológica',
+        centro: 'Centro de Diseño y Metrología Regional Distrito Capital',
+      },
+      {
+        nombre: 'Julia Isabel Roberto',
+        cargo: 'Correctora de estilo',
+        centro: 'Centro de Diseño y Metrología Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -355,23 +382,31 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Camilo Andrés Bolaño Rey',
+        cargo: 'Locución',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Ángela María Maldonado Jaime',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Lina Marcela Pérez Manchego',
+        cargo: 'Ilustración',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'María Camila Ovalle Ospina',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
     ],
     gestoresRepositorio: [
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',

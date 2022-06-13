@@ -36,7 +36,7 @@
             .col-12.paddx.mtop_5
               h4.mb-0 Producir conservando
             .col-12.paddx.mtop_6
-              p Producción con una menor afectación al medio ambiente y la diversidad de fauna y flora que existe alrededor del mundo. Para lo cual existen procesos que el productor puede realizar para mitigar los efectos del cambio climático.
+              p Producción con una menor afectación al medio ambiente y la diversidad de fauna y flora que existe alrededor del mundo. Para lo cual #[b existen procesos que el productor puede realizar para mitigar los efectos del cambio climático.]
           img(src='@/assets/curso/tema8/4.png' style='width: 550px')
 </template>
 

@@ -12,13 +12,13 @@
         .cajon.color-acento-contenido.p-4(data-aos="fade-right")
           .row.align-items-center
             .col-auto
-              img(src='@/assets/curso/tema2/1.svg', style="width: 80px") 
+              img(src='@/assets/curso/tema2/1.svg', style="width: 80px")
             .col
               p.mb-0 La política sanitaria y de inocuidad del gobierno colombiano para la leche, la carne bovina y sus derivados fue aprobada mediante el documento CONPES 3375 que se refiere a la “Política nacional de sanidad agropecuaria e inocuidad de alimentos para el sistema de medidas sanitarias y fitosanitarias”, y 3376 “Política sanitaria y de inocuidad para las cadenas de la carne y de la leche. 
     p Esta reglamentación:
     .row.justify-content-center.mt-5(data-aos="fade-right")
       .col-lg-7
-        img(src='@/assets/curso/tema2/2.svg', alt='Texto que describa la imagen')(data-aos="fade-right") 
+        img(src='@/assets/curso/tema2/2.svg', alt='Texto que describa la imagen')(data-aos="fade-right")
     Separador
     #t_2_1
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -29,7 +29,7 @@
         .cajon.color-primario.p-4
           .row
             .col-auto
-              img(src='@/assets/curso/tema2/1.svg', style="width: 70px") 
+              img(src='@/assets/curso/tema2/1.svg', style="width: 70px")
             .col
               p.mb-0 La aplicación de buenas prácticas ganaderas fortalece la competitividad y comercialización no solo a nivel regional sino a nivel internacional, logrando mayor calidad de la alimentación, movilización de carga y labores agrícolas. 
     p.mb-5 Conozca las principales normas existentes y vigentes para la regulación de la salud animal; procure identificar y asimilar la orientación de cada una de ellas:
@@ -71,36 +71,39 @@
           .py-4.py-md-5(titulo="Documento CONPES 3676 de 2010" :icono="require('@/assets/curso/tema2/img1.svg')").bg16
             .row
               .col-12.p-4
-                h4 Documento CONPES 3676 de 201
+                h4 Documento CONPES 3676 de 2010
                 p Consolidación de la política sanitaria y de inocuidad para las cadenas láctea y cárnica.
-          .py-4.py-md-5(titulo="Resolución 3585 de 2008" :icono="require('@/assets/curso/tema2/img1.svg')").bg16
-            .row
-              .col-12.p-4
-                h4 Resolución 3585 de 2008
-                p Por la cual se establece el sistema de inspección, evaluación y certificación oficial de la producción primaria de leche, de conformidad con lo dispuesto en el Decreto 616 de 2006.
-          .py-4.py-md-5(titulo="Resolución 2341 de 2007" :icono="require('@/assets/curso/tema2/img1.svg')").bg16
-            .row
-              .col-12.p-4
-                h4 Resolución 2341 de 2007
-                p Por la cual se reglamentan las condiciones sanitarias y de inocuidad en la producción primaria de ganado bovino y bufalino, destinado al sacrificio para consumo humano.
-          .py-4.py-md-5(titulo="Decreto 1500 de 2007" :icono="require('@/assets/curso/tema2/img1.svg')").bg16
-            .row
-              .col-12.p-4
-                h4 Decreto 1500 de 2007
-                p Por el cual se establece el reglamento técnico a través del cual se crea el Sistema oficial de inspección, vigilancia y control de la carne, productos cárnicos comestibles y derivados cárnicos destinados para el consumo humano y los requisitos sanitarios y de inocuidad que se deben cumplir en su producción primaria, beneficio, desposte, desprese, procesamiento, almacenamiento, transporte, comercialización, expendio, importación o exportación.
           .py-4.py-md-5(titulo="Decreto 616 de 2006" :icono="require('@/assets/curso/tema2/img1.svg')").bg16
             .row
               .col-12.p-4
                 h4 Decreto 616 de 2006
                 p Por el cual se expide el reglamento técnico sobre los requisitos que debe cumplir la leche para el consumo humano que se obtenga, procese, envase, transporte, comercialice, expenda, importe o exporte en el país.
+          .py-4.py-md-5(titulo="Decreto 1500 de 2007" :icono="require('@/assets/curso/tema2/img1.svg')").bg16
+            .row
+              .col-12.p-4
+                h4 Decreto 1500 de 2007
+                p Por el cual se establece el reglamento técnico a través del cual se crea el Sistema oficial de inspección, vigilancia y control de la carne, productos cárnicos comestibles y derivados cárnicos destinados para el consumo humano y los requisitos sanitarios y de inocuidad que se deben cumplir en su producción primaria, beneficio, desposte, desprese, procesamiento, almacenamiento, transporte, comercialización, expendio, importación o exportación.
+          .py-4.py-md-5(titulo="Resolución 2341 de 2007" :icono="require('@/assets/curso/tema2/img1.svg')").bg16
+            .row
+              .col-12.p-4
+                h4 Resolución 2341 de 2007
+                p Por la cual se reglamentan las condiciones sanitarias y de inocuidad en la producción primaria de ganado bovino y bufalino, destinado al sacrificio para consumo humano.
+          .py-4.py-md-5(titulo="Resolución 3585 de 2008" :icono="require('@/assets/curso/tema2/img1.svg')").bg16
+            .row
+              .col-12.p-4
+                h4 Resolución 3585 de 2008
+                p Por la cual se establece el sistema de inspección, evaluación y certificación oficial de la producción primaria de leche, de conformidad con lo dispuesto en el Decreto 616 de 2006.
+          
     .row.justify-content-center.align-items-center.mt-5.bg7.p-5
       .col-lg-3
         img(data-aos="fade-right")(src='@/assets/curso/tema2/4.svg', alt='Texto que describa la imagen')
-      .col-lg-6.p-5
-        .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 Normatividad
+      .col-lg-6.p-5(data-aos="fade-right")
+      
         p(data-aos="fade-left").mb-4 Amplíe su conocimiento en normatividad sobre buenas prácticas de ganadería, visitando los enlaces que aquí se proponen; recuerde llevar registro de los aspectos más importantes en su libreta personal de apuntes:
         a.boton.color-acento-botones.texto-blanco(href="https://www.ica.gov.co/getdoc/016f3c96-a458-4fa6-ae96-41d18b2221f5/requisitos-sanitarios-y-de-inocuidad-en-la-producc.aspx" target="_blank")
+          span.text-white Descargar
+          i.fas.fa-file-download
+        a.boton.color-acento-botones.texto-blanco(href="https://www.minagricultura.gov.co/ministerio/direcciones/Documents/d.angie/conpes%203675.pdf" target="_blank").ms-5
           span.text-white Descargar
           i.fas.fa-file-download
     Separador
@@ -113,7 +116,7 @@
         .cajon.color-acento-contenido.p-4(data-aos="fade-right")
           .row.align-items-center
             .col-auto
-              img(src='@/assets/curso/tema2/1.svg', style="width: 70px") 
+              img(src='@/assets/curso/tema2/1.svg', style="width: 70px")
             .col
               p.mb-0 Esta actividad agrícola representa una insignia de calidad en productos de exportación, además de ser tres veces mayor su valor de producción en cuanto a la producción cafetera. 
     p.mb-5 Sobre las implicaciones e importancia del sector ganadero en Colombia tenga en cuenta los siguientes aspectos:

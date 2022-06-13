@@ -156,9 +156,7 @@
             p.mb-0 Los sistemas de explotación en Colombia están basados en modelos que, a continuación, se mencionan; procure llevar registro de los aspectos más destacados en su libreta personal de apuntes:
     figure.my-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    
-      
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/nQjYz63-yDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)      
     .row
       .col-5.col-lg-4.bg4.p-3.mtop_8
         h3.mt-2 Funciones
